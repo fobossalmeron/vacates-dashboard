@@ -1,0 +1,17 @@
+{
+  "site": "franz_mayer",
+  "url": "https://franzmayer.org.mx/vacantes",
+  "last_checked": "2026-05-11",
+  "fetch_method": "playwright",
+  "vacancies": [
+    {
+      "id": "disenadora-de-exposiciones",
+      "title": "Diseñador(a) de Exposiciones",
+      "apply_url": "https://franzmayer.org.mx/vacantes",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-05-01"
+    }
+  ]
+}

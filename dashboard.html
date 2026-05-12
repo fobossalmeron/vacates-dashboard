@@ -1,0 +1,604 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vacantes — 2026-05-11</title>
+<style>
+  :root {
+    --bg: #0e1116;
+    --panel: #161b22;
+    --panel-2: #1c232c;
+    --border: #2a313c;
+    --text: #e6edf3;
+    --muted: #8b949e;
+    --accent: #58a6ff;
+    --green: #3fb950;
+    --green-bg: #0f2c1a;
+    --red: #f85149;
+    --red-bg: #2c1416;
+    --yellow: #d29922;
+    --yellow-bg: #2c2410;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.5;
+    padding: 32px 24px 64px;
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 12px; }
+  .subtitle { color: var(--muted); font-size: 14px; margin-bottom: 24px; }
+  .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.04em; }
+  .badge-baseline { background: var(--yellow-bg); color: var(--yellow); border: 1px solid var(--yellow); }
+  .badge-new { background: var(--green-bg); color: var(--green); border: 1px solid var(--green); }
+  .badge-permanent { background: #1f2630; color: var(--muted); border: 1px solid var(--border); }
+  .badge-closed { background: var(--red-bg); color: var(--red); border: 1px solid var(--red); }
+  .badge-out-of-scope { background: #1f2630; color: var(--muted); border: 1px solid var(--border); }
+  .vacancy.closed { opacity: 0.55; }
+  .vacancy.closed .vacancy-title a { text-decoration: line-through; }
+  .vacancy.out-of-scope { opacity: 0.7; }
+  .stats { display: grid; grid-template-columns: repeat(5, 1fr); gap: 12px; margin: 24px 0; }
+  .stat { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; }
+  .stat-label { color: var(--muted); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; }
+  .stat-value { font-size: 26px; font-weight: 600; margin-top: 4px; }
+  .stat-value.zero { color: var(--muted); }
+  .empty-state { background: var(--panel); border: 1px dashed var(--border); border-radius: 8px; padding: 16px; color: var(--muted); text-align: center; font-size: 14px; }
+  .warning { background: var(--yellow-bg); border: 1px solid var(--yellow); border-radius: 8px; padding: 12px 14px; margin-bottom: 10px; font-size: 14px; }
+  .warning strong { color: var(--yellow); }
+  details.site { background: var(--panel); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 10px; overflow: hidden; }
+  details.site[open] { border-color: #3a4250; }
+  details.site summary { padding: 14px 16px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; gap: 12px; user-select: none; list-style: none; }
+  details.site summary::-webkit-details-marker { display: none; }
+  details.site summary::before { content: "▸"; color: var(--muted); font-size: 12px; transition: transform 0.15s; display: inline-block; }
+  details.site[open] summary::before { transform: rotate(90deg); }
+  .site-title { flex: 1; display: flex; align-items: center; gap: 10px; font-weight: 500; }
+  .site-count { color: var(--muted); font-size: 13px; }
+  .site-count.has { color: var(--text); }
+  .site-body { padding: 0 16px 16px; border-top: 1px solid var(--border); }
+  .site-body .meta { color: var(--muted); font-size: 12px; padding: 10px 0 12px; display: flex; gap: 12px; flex-wrap: wrap; }
+  .site-body .meta a { color: var(--accent); text-decoration: none; word-break: break-all; }
+  .site-body .meta a:hover { text-decoration: underline; }
+  .vacancy { background: var(--panel-2); border: 1px solid var(--border); border-radius: 6px; padding: 12px 14px; margin-bottom: 8px; }
+  .vacancy:last-child { margin-bottom: 0; }
+  .vacancy-title { font-weight: 500; }
+  .vacancy-title a { color: var(--text); text-decoration: none; border-bottom: 1px dashed transparent; transition: border-color 0.15s; }
+  .vacancy-title a:hover { border-bottom-color: var(--accent); color: var(--accent); }
+  .vacancy-title a::after { content: " ↗"; color: var(--muted); font-size: 11px; }
+  .vacancy-meta { color: var(--muted); font-size: 12px; margin-top: 4px; display: flex; gap: 14px; flex-wrap: wrap; }
+  .vacancy-meta .deadline-soon { color: var(--yellow); }
+  .vacancy-notes { color: var(--muted); font-size: 12px; margin-top: 6px; }
+  .footer-note { color: var(--muted); font-size: 12px; margin-top: 32px; padding-top: 16px; border-top: 1px solid var(--border); }
+
+  .tabs { display: flex; gap: 2px; margin: 24px 0 16px; border-bottom: 1px solid var(--border); }
+  .tab { background: none; border: none; color: var(--muted); padding: 10px 16px; cursor: pointer; font: inherit; font-size: 14px; border-bottom: 2px solid transparent; margin-bottom: -1px; transition: color 0.15s, border-color 0.15s; }
+  .tab:hover { color: var(--text); }
+  .tab.active { color: var(--text); border-bottom-color: var(--accent); }
+  .tab .count { display: inline-block; min-width: 18px; padding: 0 6px; margin-left: 6px; background: var(--panel-2); color: var(--muted); border-radius: 999px; font-size: 11px; font-weight: 600; text-align: center; }
+  .tab.active .count { background: var(--accent); color: var(--bg); }
+  .tab-panel { display: none; }
+  .tab-panel.active { display: block; }
+  .tab-panel[data-panel="active"] .vacancy.mark-applied,
+  .tab-panel[data-panel="active"] .vacancy.mark-dismissed { display: none; }
+  details.site.all-marked { display: none; }
+
+  .vacancy-actions { display: flex; gap: 6px; margin-top: 10px; justify-content: flex-end; }
+  .vacancy-actions button { background: transparent; border: 1px solid var(--border); color: var(--muted); border-radius: 4px; padding: 4px 10px; font-size: 11px; font-family: inherit; cursor: pointer; transition: all 0.15s; }
+  .vacancy-actions button:hover { color: var(--text); border-color: var(--accent); }
+  .vacancy-actions button[data-action="apply"]:hover { color: var(--green); border-color: var(--green); }
+  .vacancy-actions button[data-action="dismiss"]:hover { color: var(--red); border-color: var(--red); }
+  .vacancy-actions button[data-action="undo"]:hover { color: var(--text); border-color: var(--accent); }
+  .vacancy-actions button.is-active { background: var(--panel-2); color: var(--text); border-color: var(--accent); }
+
+  .mirror-meta { color: var(--muted); font-size: 12px; margin-top: 4px; display: flex; gap: 14px; flex-wrap: wrap; }
+
+  @media (max-width: 720px) {
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .tabs { overflow-x: auto; }
+    .tab { white-space: nowrap; }
+  }
+</style>
+</head>
+<body>
+
+<h1>Vacantes</h1>
+<div class="subtitle">
+  Última corrida: <strong>2026-05-11</strong> &middot; 10 sitios revisados
+</div>
+
+<div class="stats">
+  <div class="stat"><div class="stat-label">Relevantes (CDMX/remoto)</div><div class="stat-value">5</div></div>
+  <div class="stat"><div class="stat-label">Fuera de scope</div><div class="stat-value">10</div></div>
+  <div class="stat"><div class="stat-label">Cerradas</div><div class="stat-value">6</div></div>
+  <div class="stat"><div class="stat-label">Nuevas hoy</div><div class="stat-value zero">0</div></div>
+  <div class="stat"><div class="stat-label">Errores</div><div class="stat-value zero">0</div></div>
+</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab active" data-tab="active" role="tab">Activas</button>
+  <button class="tab" data-tab="applied" role="tab">Aplicadas <span class="count" id="tab-count-applied">0</span></button>
+  <button class="tab" data-tab="dismissed" role="tab">Descartadas <span class="count" id="tab-count-dismissed">0</span></button>
+</div>
+
+<div class="tab-panel active" data-panel="active">
+
+<h2>Novedades</h2>
+<div class="empty-state">Sin vacantes nuevas en esta corrida. Última corrida previa: 2026-05-07.</div>
+
+<h2>Cerradas desde la última corrida</h2>
+<div class="vacancy closed" style="border-color: var(--red);">
+  <div class="vacancy-title"><a href="https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias" target="_blank">Jefe de Comunicación</a> <span class="badge badge-closed">Cerrada</span></div>
+  <div class="vacancy-meta"><span>Fundación Jumex · CDMX</span><span>Removida del listado el 2026-05-11</span></div>
+</div>
+<div class="vacancy closed" style="border-color: var(--red);">
+  <div class="vacancy-title"><a href="https://urls.fr/Wlv0rv" target="_blank">Coordinador Académico — Alianza Francesa de Guadalajara</a> <span class="badge badge-closed">Cerrada</span></div>
+  <div class="vacancy-meta"><span>Alianza Francesa (.org.mx) · Guadalajara</span><span>Deadline 2026-05-08 — vencido</span></div>
+</div>
+<div class="vacancy closed" style="border-color: var(--red);">
+  <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26752-Estates-Operational-and-Health-Safety-Officer/en-GB" target="_blank">Estates Operational and Health &amp; Safety Officer</a> <span class="badge badge-closed">Cerrada</span></div>
+  <div class="vacancy-meta"><span>FCO Talent · Bogotá</span><span>Deadline 2026-05-08 — vencido</span></div>
+</div>
+<div class="vacancy closed" style="border-color: var(--red);">
+  <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26753-Estates-Facilities-Manager/en-GB" target="_blank">Estates &amp; Facilities Manager</a> <span class="badge badge-closed">Cerrada</span></div>
+  <div class="vacancy-meta"><span>FCO Talent · Bogotá</span><span>Deadline 2026-05-08 — vencido</span></div>
+</div>
+
+<h2>Avisos</h2>
+<div class="warning">
+  <strong>FCO Talent</strong> — El URL guardado no está filtrando por México. Devuelve vacantes en LatAm general (Bogotá, Panamá, Lima, Brasil, Santo Domingo). Considera reemplazarlo por una URL filtrada por país México.
+</div>
+<div class="warning">
+  <strong>IFAL</strong> — La página tiene un encabezado "Ofertas" pero sin contenido visible. Puede estar vacía hoy o renderizar dinámicamente. Vigilar en próximas corridas.
+</div>
+<div class="warning">
+  <strong>Jumex</strong> — La vacante "Jefe de Comunicación" desapareció del listado entre 2026-05-07 y 2026-05-11. Marcada como cerrada.
+</div>
+
+<h2>Por sitio</h2>
+
+<details class="site" data-site-key="fco" open>
+  <summary>
+    <span class="site-title">FCO Talent (UK Foreign Office)</span>
+    <span class="site-count has">1 relevante · 7 fuera scope · 2 cerradas</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371" target="_blank">Abrir sitio</a>
+      <span style="color: var(--yellow);">⚠ El filtro actual no es México — ver avisos arriba</span>
+    </div>
+    <div class="vacancy">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-6bb23b7e54cf/candidate/so/pm/4/pl/1/opp/26802-Market-Access-Trade-Policy-Manager/en-GB" target="_blank">Market Access &amp; Trade Policy Manager</a></div>
+      <div class="vacancy-meta"><span>Mexico City</span><span class="deadline-soon">Deadline: 2026-05-25</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26613-Part-Time-Estates-Maintenance-Works-Assistant/en-GB" target="_blank">Part-Time Estates Maintenance Works Assistant</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Santo Domingo</span><span class="deadline-soon">Deadline: 2026-05-13</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26786-Estates-Maintenance-Administrative-Assistant/en-GB" target="_blank">Estates &amp; Maintenance Administrative Assistant</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Bogotá</span><span class="deadline-soon">Deadline: 2026-05-14</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26755-Soft-Facilities-and-Property-Analyst/en-GB" target="_blank">Soft Facilities and Property Analyst</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Brasilia</span><span>Deadline: 2026-05-18</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26804-Data-and-Finance-Intern-Department-for-Business-and-Trade-Bogota/en-GB" target="_blank">Data and Finance Intern – DBT – Bogota</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Bogotá</span><span>Deadline: 2026-05-18</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26757-DBT-Intern-British-Embassy-Panama-City/en-GB" target="_blank">DBT Intern — British Embassy Panama City</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Panama City</span><span>Deadline: 2026-05-18</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26788-Post-Security-and-Crisis-Manager/en-GB" target="_blank">Post Security and Crisis Manager</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Lima</span><span>Deadline: 2026-05-21</span></div>
+    </div>
+    <div class="vacancy out-of-scope">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26787-Political-and-Communications-Intern-Political-and-Communications-Team-Panama-City/en-GB" target="_blank">Political and Communications Intern</a> <span class="badge badge-out-of-scope">Fuera de scope</span></div>
+      <div class="vacancy-meta"><span>Panama City</span><span>Deadline: 2026-05-21</span></div>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26752-Estates-Operational-and-Health-Safety-Officer/en-GB" target="_blank">Estates Operational and Health &amp; Safety Officer</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>Bogotá</span><span>Deadline: 2026-05-08</span></div>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d6630f692232/candidate/so/pm/4/pl/1/opp/26753-Estates-Facilities-Manager/en-GB" target="_blank">Estates &amp; Facilities Manager</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>Bogotá</span><span>Deadline: 2026-05-08</span></div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="exteriores" open>
+  <summary>
+    <span class="site-title">Embajada de España en México</span>
+    <span class="site-count has">2 vacantes</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="vacancy">
+      <div class="vacancy-title"><a href="https://mexico.aecid.es/anuncios/convocatoria/detalle-convocatoria?articulo=11525526&amp;sitio=6725030&amp;redirect=%2Fconvocatorias" target="_blank">Auxiliar Administrativo (OCE)</a></div>
+      <div class="vacancy-notes">Publicado 2026-03-06 &middot; Lista provisional 2026-03-24</div>
+    </div>
+    <div class="vacancy">
+      <div class="vacancy-title"><a href="https://ccemx.aecid.es/fr/-/convocatoria-para-ingreso-como-p-ersonal-laboral-fijo-en-el-centro-cultural-de-espana-en-mexico-con-la-categoria-de-oficial-de-mantenimiento?redirect=/participa/convocatorias" target="_blank">Oficial de Mantenimiento (CCEMx)</a></div>
+      <div class="vacancy-notes">Publicado 2026-03-30 &middot; Lista provisional 2026-04-22</div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="franz_mayer" open>
+  <summary>
+    <span class="site-title">Museo Franz Mayer</span>
+    <span class="site-count has">1 vacante</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: Playwright</span>
+      <a href="https://franzmayer.org.mx/vacantes" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="vacancy">
+      <div class="vacancy-title"><a href="https://franzmayer.org.mx/vacantes" target="_blank">Diseñador(a) de Exposiciones</a></div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="alianza_mx" open>
+  <summary>
+    <span class="site-title">Alianza Francesa de México (.edu.mx)</span>
+    <span class="site-count has">1 vacante</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="vacancy">
+      <div class="vacancy-title"><a href="https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros" target="_blank">Candidature Spontanée Professeur FLE</a> <span class="badge badge-permanent">Permanente</span></div>
+      <div class="vacancy-notes">Convocatoria abierta para profesores de FLE.</div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="alianza_org">
+  <summary>
+    <span class="site-title">Alianza Francesa (.org.mx)</span>
+    <span class="site-count has">0 relevantes · 0 fuera scope activas · 3 cerradas</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://urls.fr/F7PKXF" target="_blank">Director — Alianza Francesa de Mérida</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>Deadline: 2026-04-21</span><span>heloise.thieulin@ifal.mx · clemence.mayoral@alianzafr.mx</span></div>
+      <div class="vacancy-notes">Contrato derecho público francés 2 años renovable. Salario mínimo €3,038.75/mes (Master)</div>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://urls.fr/ATaUOY" target="_blank">Director Pedagógico — Alianza Francesa de Monterrey</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>Deadline: 2026-04-15</span><span>direccion@af.edu.mx</span></div>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://urls.fr/Wlv0rv" target="_blank">Coordinador Académico — Alianza Francesa de Guadalajara</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>Deadline: 2026-05-08</span><span>direccion@alianzafrancesagdl.mx</span></div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="jumex">
+  <summary>
+    <span class="site-title">Fundación Jumex</span>
+    <span class="site-count has">0 relevantes · 1 cerrada</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="vacancy closed">
+      <div class="vacancy-title"><a href="https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias" target="_blank">Jefe de Comunicación</a> <span class="badge badge-closed">Cerrada</span></div>
+      <div class="vacancy-meta"><span>CDMX</span><span>Removida del listado el 2026-05-11</span></div>
+      <div class="vacancy-notes">Aplicaba a rh@fundacionjumex.org</div>
+    </div>
+  </div>
+</details>
+
+<details class="site" data-site-key="british_council">
+  <summary>
+    <span class="site-title">British Council</span>
+    <span class="site-count">Sin vacantes</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: Playwright</span>
+      <a href="https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="empty-state">Hoy no hay vacantes para México (incluyendo remoto).</div>
+  </div>
+</details>
+
+<details class="site" data-site-key="museo_tamayo">
+  <summary>
+    <span class="site-title">Museo Tamayo</span>
+    <span class="site-count">Sin vacantes</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: WebFetch</span>
+      <a href="https://www.museotamayo.org/vacantes" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="empty-state">"Por el momento todas nuestras vacantes están cubiertas."</div>
+  </div>
+</details>
+
+<details class="site" data-site-key="ifal">
+  <summary>
+    <span class="site-title">IFAL</span>
+    <span class="site-count">Sin vacantes</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: Playwright</span>
+      <a href="https://ifal.mx/ofertas" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="empty-state">Página renderizada sin contenido bajo "Ofertas". Ver avisos arriba.</div>
+  </div>
+</details>
+
+<details class="site" data-site-key="ireland">
+  <summary>
+    <span class="site-title">Embajada de Irlanda en México</span>
+    <span class="site-count">Sin vacantes</span>
+  </summary>
+  <div class="site-body">
+    <div class="meta">
+      <span>Método: Playwright</span>
+      <a href="https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/" target="_blank">Abrir sitio</a>
+    </div>
+    <div class="empty-state">"There are currently no vacancies."</div>
+  </div>
+</details>
+
+</div>
+
+<div class="tab-panel" data-panel="applied">
+  <h2>Vacantes a las que apliqué</h2>
+  <div id="panel-applied"></div>
+</div>
+
+<div class="tab-panel" data-panel="dismissed">
+  <h2>Vacantes descartadas</h2>
+  <div id="panel-dismissed"></div>
+</div>
+
+<div class="footer-note">
+  Generado por el monitor descrito en <a href="../CLAUDE.md" style="color: var(--accent);">CLAUDE.md</a>.
+  Para volver a correrlo, abre Claude Code en este repo y di "dame las vacantes".
+  <br>Marcas de "aplicada" / "descartada" se guardan localmente en este navegador (localStorage) — no se sincronizan entre dispositivos.
+</div>
+
+<script>
+(function() {
+  'use strict';
+  var STORAGE_KEY = 'florvault:marks:v1';
+
+  function slugify(s) {
+    return (s || '').toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
+
+  function loadMarks() {
+    try { return JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { return {}; }
+  }
+  function saveMarks(m) {
+    try { localStorage.setItem(STORAGE_KEY, JSON.stringify(m)); }
+    catch (e) {}
+  }
+
+  function escapeHtml(s) {
+    return String(s || '').replace(/[&<>"']/g, function(c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function cardKey(card) {
+    var siteEl = card.closest('details.site');
+    var siteKey = (siteEl && siteEl.dataset.siteKey) ? siteEl.dataset.siteKey : 'unknown';
+    var titleEl = card.querySelector('.vacancy-title a') || card.querySelector('.vacancy-title');
+    var title = titleEl ? titleEl.textContent.trim() : '';
+    return siteKey + '::' + slugify(title);
+  }
+
+  function cardMeta(card) {
+    var siteEl = card.closest('details.site');
+    var siteName = '';
+    if (siteEl) {
+      var st = siteEl.querySelector('.site-title');
+      if (st) siteName = st.textContent.trim();
+    }
+    var titleEl = card.querySelector('.vacancy-title a') || card.querySelector('.vacancy-title');
+    var title = titleEl ? titleEl.textContent.trim() : '';
+    var url = (titleEl && titleEl.tagName === 'A') ? titleEl.href : '';
+    var metaEl = card.querySelector('.vacancy-meta');
+    var meta = metaEl ? metaEl.textContent.trim() : '';
+    return { title: title, url: url, siteName: siteName, meta: meta };
+  }
+
+  function init() {
+    var marks = loadMarks();
+    var cards = document.querySelectorAll('.tab-panel[data-panel="active"] .vacancy');
+
+    cards.forEach(function(card) {
+      var key = cardKey(card);
+      var meta = cardMeta(card);
+      var entry = marks[key];
+
+      card.dataset.markKey = key;
+      if (entry && entry.status === 'applied') card.classList.add('mark-applied');
+      else if (entry && entry.status === 'dismissed') card.classList.add('mark-dismissed');
+
+      var actions = document.createElement('div');
+      actions.className = 'vacancy-actions';
+      actions.innerHTML =
+        '<button type="button" data-action="apply">Ya apliqué</button>' +
+        '<button type="button" data-action="dismiss">No me interesa</button>';
+      card.appendChild(actions);
+
+      updateButtonState(card);
+
+      actions.addEventListener('click', function(e) {
+        var btn = e.target.closest('button');
+        if (!btn) return;
+        var action = btn.dataset.action;
+        var current = loadMarks();
+        var alreadyApplied = card.classList.contains('mark-applied');
+        var alreadyDismissed = card.classList.contains('mark-dismissed');
+
+        if (action === 'apply') {
+          if (alreadyApplied) {
+            delete current[key];
+            card.classList.remove('mark-applied');
+          } else {
+            current[key] = { status: 'applied', title: meta.title, url: meta.url, siteName: meta.siteName, metaText: meta.meta, markedAt: new Date().toISOString() };
+            card.classList.remove('mark-dismissed');
+            card.classList.add('mark-applied');
+          }
+        } else if (action === 'dismiss') {
+          if (alreadyDismissed) {
+            delete current[key];
+            card.classList.remove('mark-dismissed');
+          } else {
+            current[key] = { status: 'dismissed', title: meta.title, url: meta.url, siteName: meta.siteName, metaText: meta.meta, markedAt: new Date().toISOString() };
+            card.classList.remove('mark-applied');
+            card.classList.add('mark-dismissed');
+          }
+        }
+        saveMarks(current);
+        updateButtonState(card);
+        rebuildPanels();
+      });
+    });
+
+    rebuildPanels();
+    setupTabSwitcher();
+  }
+
+  function updateButtonState(card) {
+    var applied = card.classList.contains('mark-applied');
+    var dismissed = card.classList.contains('mark-dismissed');
+    var btnApply = card.querySelector('button[data-action="apply"]');
+    var btnDismiss = card.querySelector('button[data-action="dismiss"]');
+    if (btnApply) {
+      btnApply.classList.toggle('is-active', applied);
+      btnApply.textContent = applied ? '✓ Apliqué' : 'Ya apliqué';
+    }
+    if (btnDismiss) {
+      btnDismiss.classList.toggle('is-active', dismissed);
+      btnDismiss.textContent = dismissed ? '✗ Descartada' : 'No me interesa';
+    }
+  }
+
+  function rebuildPanels() {
+    var marks = loadMarks();
+    var keys = Object.keys(marks);
+    var appliedKeys = keys.filter(function(k) { return marks[k].status === 'applied'; });
+    var dismissedKeys = keys.filter(function(k) { return marks[k].status === 'dismissed'; });
+
+    document.getElementById('tab-count-applied').textContent = appliedKeys.length;
+    document.getElementById('tab-count-dismissed').textContent = dismissedKeys.length;
+
+    renderMirrorPanel('panel-applied', appliedKeys.map(function(k) { return Object.assign({ key: k }, marks[k]); }), 'Aún no has marcado vacantes como aplicadas. Usa el botón "Ya apliqué" en la pestaña Activas.');
+    renderMirrorPanel('panel-dismissed', dismissedKeys.map(function(k) { return Object.assign({ key: k }, marks[k]); }), 'No has descartado ninguna vacante. Usa "No me interesa" en la pestaña Activas para ocultar las que no apliquen.');
+
+    updateSiteVisibility();
+  }
+
+  function renderMirrorPanel(elementId, entries, emptyMsg) {
+    var container = document.getElementById(elementId);
+    if (!container) return;
+    container.innerHTML = '';
+    if (entries.length === 0) {
+      container.innerHTML = '<div class="empty-state">' + escapeHtml(emptyMsg) + '</div>';
+      return;
+    }
+    entries.sort(function(a, b) { return (b.markedAt || '').localeCompare(a.markedAt || ''); });
+    entries.forEach(function(entry) {
+      var card = document.createElement('div');
+      card.className = 'vacancy';
+      var titleHtml = entry.url
+        ? '<a href="' + escapeHtml(entry.url) + '" target="_blank">' + escapeHtml(entry.title) + '</a>'
+        : escapeHtml(entry.title);
+      var metaLine = [entry.siteName, entry.metaText].filter(Boolean).join(' · ');
+      var when = entry.markedAt ? new Date(entry.markedAt).toLocaleDateString('es-MX', { year: 'numeric', month: 'short', day: 'numeric' }) : '';
+      card.innerHTML =
+        '<div class="vacancy-title">' + titleHtml + '</div>' +
+        (metaLine ? '<div class="mirror-meta"><span>' + escapeHtml(metaLine) + '</span>' + (when ? '<span>marcada ' + escapeHtml(when) + '</span>' : '') + '</div>' : '') +
+        '<div class="vacancy-actions"><button type="button" data-action="undo">Deshacer</button></div>';
+      card.querySelector('button[data-action="undo"]').addEventListener('click', function() {
+        var current = loadMarks();
+        delete current[entry.key];
+        saveMarks(current);
+        var orig = document.querySelector('.tab-panel[data-panel="active"] .vacancy[data-mark-key="' + cssEscape(entry.key) + '"]');
+        if (orig) {
+          orig.classList.remove('mark-applied', 'mark-dismissed');
+          updateButtonState(orig);
+        }
+        rebuildPanels();
+      });
+      container.appendChild(card);
+    });
+  }
+
+  function cssEscape(s) {
+    if (window.CSS && CSS.escape) return CSS.escape(s);
+    return String(s).replace(/[^a-zA-Z0-9_-]/g, function(c) { return '\\' + c; });
+  }
+
+  function updateSiteVisibility() {
+    var sites = document.querySelectorAll('.tab-panel[data-panel="active"] details.site');
+    sites.forEach(function(d) {
+      var vacs = d.querySelectorAll('.vacancy');
+      if (vacs.length === 0) return;
+      var anyVisible = false;
+      vacs.forEach(function(v) {
+        if (!v.classList.contains('mark-applied') && !v.classList.contains('mark-dismissed')) anyVisible = true;
+      });
+      d.classList.toggle('all-marked', !anyVisible);
+    });
+  }
+
+  function setupTabSwitcher() {
+    var tabs = document.querySelectorAll('.tab');
+    var panels = document.querySelectorAll('.tab-panel');
+    tabs.forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        var target = tab.dataset.tab;
+        tabs.forEach(function(t) { t.classList.toggle('active', t === tab); });
+        panels.forEach(function(p) { p.classList.toggle('active', p.dataset.panel === target); });
+      });
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
+
+</body>
+</html>

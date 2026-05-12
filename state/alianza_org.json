@@ -1,0 +1,39 @@
+{
+  "site": "alianza_org",
+  "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
+  "last_checked": "2026-05-11",
+  "fetch_method": "webfetch",
+  "vacancies": [
+    {
+      "id": "director-alianza-francesa-merida",
+      "title": "Director de la Alianza Francesa de Mérida",
+      "apply_url": "https://urls.fr/F7PKXF",
+      "contact_emails": ["heloise.thieulin@ifal.mx", "clemence.mayoral@alianzafr.mx"],
+      "deadline": "2026-04-21",
+      "status": "closed",
+      "relevance": "out_of_scope",
+      "notes": "Contrato de derecho público francés 2 años renovable. Salario mínimo €3,038.75/mes (Master)",
+      "first_seen": "2026-05-01"
+    },
+    {
+      "id": "director-pedagogico-alianza-francesa-monterrey",
+      "title": "Director Pedagógico de la Alianza Francesa de Monterrey",
+      "apply_url": "https://urls.fr/ATaUOY",
+      "contact_emails": ["direccion@af.edu.mx"],
+      "deadline": "2026-04-15",
+      "status": "closed",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-05-01"
+    },
+    {
+      "id": "coordinador-academico-alianza-francesa-guadalajara",
+      "title": "Coordinador Académico — Alianza Francesa de Guadalajara",
+      "apply_url": "https://urls.fr/Wlv0rv",
+      "contact_emails": ["direccion@alianzafrancesagdl.mx"],
+      "deadline": "2026-05-08",
+      "status": "closed",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-05-01"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "site": "alianza_mx",
+  "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+  "last_checked": "2026-05-11",
+  "fetch_method": "webfetch",
+  "vacancies": [
+    {
+      "id": "candidature-spontanee-professeur-fle",
+      "title": "Candidature Spontanée Professeur FLE",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+      "deadline": null,
+      "status": "permanent",
+      "relevance": "in_scope",
+      "notes": "Convocatoria permanente para profesores de FLE",
+      "first_seen": "2026-05-01"
+    }
+  ]
+}
