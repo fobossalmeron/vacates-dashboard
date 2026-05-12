@@ -102,9 +102,33 @@
     .tabs { overflow-x: auto; }
     .tab { white-space: nowrap; }
   }
+
+  #auth-overlay { position: fixed; inset: 0; background: var(--bg); z-index: 9999; display: flex; align-items: center; justify-content: center; }
+  #auth-overlay.unlocked { display: none; }
+  #auth-input { background: var(--panel); border: 1px solid var(--border); color: var(--text); font: inherit; font-size: 16px; padding: 12px 16px; border-radius: 8px; outline: none; width: 240px; text-align: center; }
+  #auth-input:focus { border-color: var(--accent); }
 </style>
 </head>
 <body>
+
+<div id="auth-overlay"><input id="auth-input" type="password" autofocus autocomplete="off" spellcheck="false"></div>
+<script>
+(function() {
+  var PW = "cachorra";
+  var KEY = "florvault:auth:v1";
+  var overlay = document.getElementById('auth-overlay');
+  var input = document.getElementById('auth-input');
+  if (sessionStorage.getItem(KEY) === '1') { overlay.classList.add('unlocked'); return; }
+  function check() {
+    if (input.value === PW) {
+      try { sessionStorage.setItem(KEY, '1'); } catch (e) {}
+      overlay.classList.add('unlocked');
+    }
+  }
+  input.addEventListener('input', check);
+  input.addEventListener('keydown', function(e) { if (e.key === 'Enter') check(); });
+})();
+</script>
 
 <h1>Vacantes</h1>
 <div class="subtitle">
