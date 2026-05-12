@@ -408,13 +408,15 @@
 <div class="footer-note">
   Generado por el monitor descrito en <a href="../CLAUDE.md" style="color: var(--accent);">CLAUDE.md</a>.
   Para volver a correrlo, abre Claude Code en este repo y di "dame las vacantes".
-  <br>Marcas de "aplicada" / "descartada" se guardan localmente en este navegador (localStorage) — no se sincronizan entre dispositivos.
+  <br>Marcas de "aplicada" / "descartada" se sincronizan con el servidor — funcionan entre dispositivos.
 </div>
 
 <script>
 (function() {
   'use strict';
   var STORAGE_KEY = 'florvault:marks:v1';
+  var API_URL = '/api/marks';
+  var API_PASSWORD = 'cachorra';
 
   function slugify(s) {
     return (s || '').toLowerCase()
@@ -430,6 +432,53 @@
   function saveMarks(m) {
     try { localStorage.setItem(STORAGE_KEY, JSON.stringify(m)); }
     catch (e) {}
+    pushToServer(m);
+  }
+
+  var pushInFlight = null;
+  var pushPending = null;
+  function pushToServer(m) {
+    if (pushInFlight) { pushPending = m; return; }
+    pushInFlight = fetch(API_URL, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'X-Auth-Password': API_PASSWORD },
+      body: JSON.stringify(m)
+    }).then(function(r) {
+      if (!r.ok) console.warn('marks push failed:', r.status);
+    }).catch(function(e) {
+      console.warn('marks push error:', e);
+    }).then(function() {
+      pushInFlight = null;
+      if (pushPending) {
+        var next = pushPending; pushPending = null;
+        pushToServer(next);
+      }
+    });
+  }
+
+  function fetchFromServer() {
+    return fetch(API_URL, { headers: { 'X-Auth-Password': API_PASSWORD } })
+      .then(function(r) {
+        if (!r.ok) throw new Error('status ' + r.status);
+        return r.json();
+      });
+  }
+
+  function syncFromServer() {
+    return fetchFromServer().then(function(serverMarks) {
+      var local = loadMarks();
+      var localKeys = Object.keys(local);
+      var serverKeys = Object.keys(serverMarks || {});
+      if (serverKeys.length === 0 && localKeys.length > 0) {
+        pushToServer(local);
+        return local;
+      }
+      try { localStorage.setItem(STORAGE_KEY, JSON.stringify(serverMarks || {})); } catch (e) {}
+      return serverMarks || {};
+    }).catch(function(e) {
+      console.warn('marks fetch error, using local only:', e);
+      return loadMarks();
+    });
   }
 
   function escapeHtml(s) {
@@ -616,10 +665,30 @@
     });
   }
 
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', init);
-  } else {
+  function applyMarksToAllCards() {
+    var marks = loadMarks();
+    var cards = document.querySelectorAll('.tab-panel[data-panel="active"] .vacancy');
+    cards.forEach(function(card) {
+      var key = card.dataset.markKey;
+      if (!key) return;
+      var entry = marks[key];
+      card.classList.remove('mark-applied', 'mark-dismissed');
+      if (entry && entry.status === 'applied') card.classList.add('mark-applied');
+      else if (entry && entry.status === 'dismissed') card.classList.add('mark-dismissed');
+      updateButtonState(card);
+    });
+    rebuildPanels();
+  }
+
+  function bootstrap() {
     init();
+    syncFromServer().then(applyMarksToAllCards);
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bootstrap);
+  } else {
+    bootstrap();
   }
 })();
 </script>
