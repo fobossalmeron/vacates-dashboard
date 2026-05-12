@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-05-11",
+  "last_checked": "2026-05-12",
   "fetch_method": "webfetch",
   "warning": "El URL actual NO está filtrando por México. Devuelve vacantes en LatAm general (Bogotá, Panamá, Lima, Brasil, Santo Domingo). Considera reemplazar por una URL filtrada por país México.",
   "vacancies": [

@@ -1,7 +1,19 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-05-11",
+  "last_checked": "2026-05-12",
   "fetch_method": "playwright",
-  "vacancies": []
+  "vacancies": [
+    {
+      "id": "teacher-of-english",
+      "title": "Teacher of English",
+      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891354165",
+      "location": "Mexico City",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Publicada 2026-05-12 (hace 13h al momento del fetch).",
+      "first_seen": "2026-05-12"
+    }
+  ]
 }

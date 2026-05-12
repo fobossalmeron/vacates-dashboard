@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-05-11",
+  "last_checked": "2026-05-12",
   "fetch_method": "playwright",
   "vacancies": [],
   "notes": "Heading 'Ofertas' presente pero sin contenido de vacantes en la página (verificado con Playwright). Vigilar en corridas futuras por si la lista se renderiza diferente."
