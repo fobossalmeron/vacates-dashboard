@@ -1,8 +1,8 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-05-12",
-  "fetch_method": "webfetch",
+  "last_checked": "2026-05-20",
+  "fetch_method": "playwright",
   "vacancies": [
     {
       "id": "candidature-spontanee-professeur-fle",
@@ -11,8 +11,26 @@
       "deadline": null,
       "status": "permanent",
       "relevance": "in_scope",
+      "contact_emails": [
+        "pedagogia@alianzafrancesamx.edu.mx"
+      ],
       "notes": "Convocatoria permanente para profesores de FLE",
       "first_seen": "2026-05-01"
+    },
+    {
+      "id": "encargado-de-mantenimiento-e-intendente",
+      "title": "Encargado de mantenimiento e intendente",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+      "location": "CDMX · Centro Del Valle",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "mbanuelos@alianzafrancesamx.edu.mx"
+      ],
+      "salary": "$12,200 MXN bruto mensual",
+      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés.",
+      "first_seen": "2026-05-20"
     }
   ]
 }

@@ -1,13 +1,14 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-05-12",
+  "last_checked": "2026-05-20",
   "fetch_method": "webfetch",
   "vacancies": [
     {
       "id": "auxiliar-administrativo-oce",
       "title": "Auxiliar Administrativo (OCE)",
-      "apply_url": "https://mexico.aecid.es/anuncios/convocatoria/detalle-convocatoria?articulo=11525526&sitio=6725030&redirect=%2Fconvocatorias",
+      "apply_url": "https://mexico.aecid.es/convocatorias",
+      "location": "CDMX",
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
@@ -18,6 +19,7 @@
       "id": "oficial-de-mantenimiento-ccemx",
       "title": "Oficial de Mantenimiento (CCEMx)",
       "apply_url": "https://ccemx.aecid.es/fr/-/convocatoria-para-ingreso-como-p-ersonal-laboral-fijo-en-el-centro-cultural-de-espana-en-mexico-con-la-categoria-de-oficial-de-mantenimiento?redirect=/participa/convocatorias",
+      "location": "CDMX",
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",

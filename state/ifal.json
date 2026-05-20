@@ -1,8 +1,51 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-05-12",
+  "last_checked": "2026-05-20",
   "fetch_method": "playwright",
-  "vacancies": [],
-  "notes": "Heading 'Ofertas' presente pero sin contenido de vacantes en la página (verificado con Playwright). Vigilar en corridas futuras por si la lista se renderiza diferente."
+  "vacancies": [
+    {
+      "id": "appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
+      "title": "Appel à candidature en prestation de service - Chargé de mission communication, valorisation et renforcement institutionnel",
+      "display_title": "Chargé de mission communication, valorisation et renforcement institutionnel",
+      "apply_url": "https://ifal.mx/ofertas/appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
+      "location": "México / cooperación franco-mexicana",
+      "deadline": "2026-05-15",
+      "status": "closed",
+      "relevance": "in_scope",
+      "notes": "Deadline pasado al momento de la corrida; oferta completa en Google Docs.",
+      "first_seen": "2026-05-20"
+    },
+    {
+      "id": "agente-administrativo-cle-y-certificaciones-delf-dalf-mexico",
+      "title": "Agent(e) administratif(ve) au service de la coopération linguistique et éducative (CLE) et de la coordination nationale des certifications DELF DALF du Mexique",
+      "display_title": "Agent(e) administratif(ve) CLE / certificaciones DELF DALF",
+      "apply_url": "https://ifal.mx/ofertas/agent-e-administratif-ve-au-service-de-la-cooperation-linguistique-et-educative-cle-et-de-la-coordination-nationale-des-certifications-delf-dalf-du-mexique",
+      "location": "CDMX · IFAL / Embajada de Francia",
+      "deadline": "2026-05-20",
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "heloise.thieulin@ifal.mx",
+        "cesar.montealegre@ifal.mx",
+        "andrea.caldas@ifal.mx",
+        "pauline.delomez@ifal.mx",
+        "ana.andrade@ifal.mx"
+      ],
+      "notes": "Enviar CV y carta de motivación en francés antes del 20/05/2026.",
+      "first_seen": "2026-05-20"
+    },
+    {
+      "id": "directeur-d-alliance-francaise-merida",
+      "title": "Directeur d'Alliance Française Merida",
+      "display_title": "Directeur d’Alliance Française Mérida",
+      "apply_url": "https://ifal.mx/ofertas/directeur-d-alliance-francaise-merida",
+      "location": "Mérida",
+      "deadline": "2026-05-26",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "notes": "Candidatures à envoyer jusqu’au 26 mai 2026.",
+      "first_seen": "2026-05-20"
+    }
+  ]
 }

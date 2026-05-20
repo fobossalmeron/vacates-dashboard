@@ -1,13 +1,14 @@
 {
   "site": "jumex",
   "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
-  "last_checked": "2026-05-12",
+  "last_checked": "2026-05-20",
   "fetch_method": "webfetch",
   "vacancies": [
     {
       "id": "jefe-de-comunicacion",
       "title": "Jefe de Comunicación",
       "apply_url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
+      "location": "CDMX",
       "deadline": null,
       "status": "closed",
       "relevance": "in_scope",
