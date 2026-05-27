@@ -1,7 +1,7 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-05-12",
+  "last_checked": "2026-05-26",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -9,9 +9,21 @@
       "title": "Diseñador(a) de Exposiciones",
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "deadline": null,
+      "status": "closed",
+      "relevance": "in_scope",
+      "notes": "Removida del listado el 2026-05-26.",
+      "first_seen": "2026-05-01"
+    },
+    {
+      "id": "encargadoa-de-cafeteria",
+      "title": "Encargado(a) de Cafetería",
+      "apply_url": "https://franzmayer.org.mx/vacantes",
+      "location": "CDMX · Museo Franz Mayer",
+      "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "first_seen": "2026-05-01"
+      "notes": "Operar la cafetería del museo como unidad de sostenibilidad rentable, alineada con la propuesta cultural del recinto. Incluye experiencia gastronómica de calidad y generación de ingresos.",
+      "first_seen": "2026-05-26"
     }
   ]
 }

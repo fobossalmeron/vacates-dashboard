@@ -1,8 +1,8 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-05-20",
-  "fetch_method": "playwright",
+  "last_checked": "2026-05-26",
+  "fetch_method": "webfetch",
   "vacancies": [
     {
       "id": "appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
@@ -13,7 +13,7 @@
       "deadline": "2026-05-15",
       "status": "closed",
       "relevance": "in_scope",
-      "notes": "Deadline pasado al momento de la corrida; oferta completa en Google Docs.",
+      "notes": "Deadline pasado; removida del listado el 2026-05-26.",
       "first_seen": "2026-05-20"
     },
     {
@@ -23,7 +23,7 @@
       "apply_url": "https://ifal.mx/ofertas/agent-e-administratif-ve-au-service-de-la-cooperation-linguistique-et-educative-cle-et-de-la-coordination-nationale-des-certifications-delf-dalf-du-mexique",
       "location": "CDMX · IFAL / Embajada de Francia",
       "deadline": "2026-05-20",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
       "contact_emails": [
         "heloise.thieulin@ifal.mx",
@@ -32,7 +32,7 @@
         "pauline.delomez@ifal.mx",
         "ana.andrade@ifal.mx"
       ],
-      "notes": "Enviar CV y carta de motivación en francés antes del 20/05/2026.",
+      "notes": "Deadline pasado (2026-05-20). Aún visible en el listado al 2026-05-26.",
       "first_seen": "2026-05-20"
     },
     {
@@ -44,7 +44,7 @@
       "deadline": "2026-05-26",
       "status": "active",
       "relevance": "out_of_scope",
-      "notes": "Candidatures à envoyer jusqu’au 26 mai 2026.",
+      "notes": "Candidatures à envoyer jusqu’au 26 mai 2026 (deadline = hoy).",
       "first_seen": "2026-05-20"
     }
   ]

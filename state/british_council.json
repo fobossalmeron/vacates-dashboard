@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-05-20",
+  "last_checked": "2026-05-26",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -15,5 +15,6 @@
       "notes": "Removida del listado el 2026-05-20.",
       "first_seen": "2026-05-12"
     }
-  ]
+  ],
+  "notes": "El listado público (Mexico + remoto) muestra 0 trabajos."
 }

@@ -1,53 +1,37 @@
 {
-  "last_run": "2026-05-20",
+  "last_run": "2026-05-26",
   "is_baseline": false,
   "scope": "Solo CDMX o remoto. En duda → mantener visible.",
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 2,
-    "relevant_active": 7,
-    "out_of_scope": 14,
-    "closed": 13,
-    "new_today": 4,
-    "removed_today": 6
+    "sites_with_error": 0,
+    "relevant_active": 6,
+    "out_of_scope": 16,
+    "closed": 17,
+    "new_today": 3,
+    "removed_today": 4
   },
   "warnings": [
     {
-      "site": "franz_mayer",
-      "message": "No se pudo verificar hoy: Cloudflare mostró una verificación humana en Playwright. Se conserva el snapshot bueno de 2026-05-12."
-    },
-    {
-      "site": "ireland",
-      "message": "No se pudo verificar hoy: CloudFront devolvió 403 tanto por WebFetch como por Playwright. Se conserva el snapshot bueno de 2026-05-12."
-    },
-    {
       "site": "fco",
-      "message": "El URL actual NO está filtrando por México. Devuelve vacantes en LatAm general. El facet muestra México (1) y Panamá (1), pero la página incluye Lima y Montevideo; conviene reemplazar por una URL filtrada por país México."
+      "message": "El URL actual NO está filtrando por México. Devuelve vacantes en LatAm general; conviene reemplazar por una URL filtrada por país México."
     }
   ],
   "closed_today": [
     {
-      "title": "Teacher of English",
-      "siteName": "British Council"
+      "title": "Diseñador(a) de Exposiciones",
+      "siteName": "Museo Franz Mayer"
     },
     {
-      "title": "Part-Time Estates Maintenance Works Assistant",
+      "title": "Agent(e) administratif(ve) CLE / certificaciones DELF DALF",
+      "siteName": "IFAL"
+    },
+    {
+      "title": "Post Security and Crisis Manager",
       "siteName": "FCO Talent (UK Foreign Office)"
     },
     {
-      "title": "Estates & Maintenance Administrative Assistant",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "Soft Facilities and Property Analyst",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "Data and Finance Intern – DBT – Bogota",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "DBT Intern — British Embassy Panama City",
+      "title": "Political and Communications Intern",
       "siteName": "FCO Talent (UK Foreign Office)"
     }
   ],
@@ -57,34 +41,17 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
-        {
-          "title": "Post Security and Crisis Manager",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26788-Post-Security-and-Crisis-Manager/en-GB",
-          "location": "Lima",
-          "deadline": "2026-05-21",
-          "status": "active",
-          "relevance": "out_of_scope",
-          "is_new": false
-        },
-        {
-          "title": "Political and Communications Intern",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26787-Political-and-Communications-Intern-Political-and-Communications-Team-Panama-City/en-GB",
-          "location": "Panama City",
-          "deadline": "2026-05-21",
-          "status": "active",
-          "relevance": "out_of_scope",
-          "is_new": false
-        },
         {
           "title": "Market Access & Trade Policy Manager",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26802-Market-Access-Trade-Policy-Manager/en-GB",
           "location": "Mexico City",
-          "deadline": "2026-05-25",
+          "deadline": "2026-06-01",
           "status": "active",
           "relevance": "in_scope",
+          "notes": "Deadline extendida del 25 mayo al 1 junio 2026.",
           "is_new": false
         },
         {
@@ -94,7 +61,45 @@
           "deadline": "2026-05-27",
           "status": "active",
           "relevance": "out_of_scope",
+          "is_new": false
+        },
+        {
+          "title": "Deputy Head of HR, Brasilia",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26878-Deputy-Head-of-HR-Brasilia/en-GB",
+          "location": "Brasilia",
+          "deadline": "2026-06-03",
+          "status": "active",
+          "relevance": "out_of_scope",
           "is_new": true
+        },
+        {
+          "title": "Business and Trade Intern — British Embassy Santiago",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26908-Business-and-Trade-Intern-Department-for-Business-and-Trade-British-Embassy-Santiago/en-GB",
+          "location": "Santiago",
+          "deadline": "2026-06-07",
+          "status": "active",
+          "relevance": "out_of_scope",
+          "is_new": true
+        },
+        {
+          "title": "Post Security and Crisis Manager",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26788-Post-Security-and-Crisis-Manager/en-GB",
+          "location": "Lima",
+          "deadline": "2026-05-21",
+          "status": "closed",
+          "relevance": "out_of_scope",
+          "notes": "Removida del listado el 2026-05-26.",
+          "is_new": false
+        },
+        {
+          "title": "Political and Communications Intern",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26787-Political-and-Communications-Intern-Political-and-Communications-Team-Panama-City/en-GB",
+          "location": "Panama City",
+          "deadline": "2026-05-21",
+          "status": "closed",
+          "relevance": "out_of_scope",
+          "notes": "Removida del listado el 2026-05-26.",
+          "is_new": false
         },
         {
           "title": "Estates Operational and Health & Safety Officer",
@@ -164,7 +169,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -194,15 +199,26 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-05-12",
-      "failed_today": true,
+      "last_checked": "2026-05-26",
+      "failed_today": false,
       "vacancies": [
+        {
+          "title": "Encargado(a) de Cafetería",
+          "apply_url": "https://franzmayer.org.mx/vacantes",
+          "location": "CDMX · Museo Franz Mayer",
+          "deadline": null,
+          "status": "active",
+          "relevance": "in_scope",
+          "notes": "Operar la cafetería del museo como unidad de sostenibilidad rentable, alineada con la propuesta cultural del recinto. Experiencia gastronómica de calidad y generación de ingresos.",
+          "is_new": true
+        },
         {
           "title": "Diseñador(a) de Exposiciones",
           "apply_url": "https://franzmayer.org.mx/vacantes",
           "deadline": null,
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
+          "notes": "Removida del listado el 2026-05-26.",
           "is_new": false
         }
       ]
@@ -211,8 +227,8 @@
       "key": "alianza_mx",
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-      "method": "playwright",
-      "last_checked": "2026-05-20",
+      "method": "webfetch",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -228,7 +244,7 @@
           "is_new": false
         },
         {
-          "title": "Encargado de mantenimiento e intendente",
+          "title": "Personal de mantenimiento e intendencia",
           "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
           "location": "CDMX · Centro Del Valle",
           "deadline": null,
@@ -239,7 +255,7 @@
             "mbanuelos@alianzafrancesamx.edu.mx"
           ],
           "salary": "$12,200 MXN bruto mensual",
-          "is_new": true
+          "is_new": false
         }
       ]
     },
@@ -248,36 +264,9 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
-        {
-          "title": "Chargé de mission communication, valorisation et renforcement institutionnel",
-          "apply_url": "https://ifal.mx/ofertas/appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
-          "location": "México / cooperación franco-mexicana",
-          "deadline": "2026-05-15",
-          "status": "closed",
-          "relevance": "in_scope",
-          "notes": "Deadline pasado al momento de la corrida; oferta completa en Google Docs.",
-          "is_new": false
-        },
-        {
-          "title": "Agent(e) administratif(ve) CLE / certificaciones DELF DALF",
-          "apply_url": "https://ifal.mx/ofertas/agent-e-administratif-ve-au-service-de-la-cooperation-linguistique-et-educative-cle-et-de-la-coordination-nationale-des-certifications-delf-dalf-du-mexique",
-          "location": "CDMX · IFAL / Embajada de Francia",
-          "deadline": "2026-05-20",
-          "status": "active",
-          "relevance": "in_scope",
-          "notes": "Enviar CV y carta de motivación en francés antes del 20/05/2026.",
-          "contact_emails": [
-            "heloise.thieulin@ifal.mx",
-            "cesar.montealegre@ifal.mx",
-            "andrea.caldas@ifal.mx",
-            "pauline.delomez@ifal.mx",
-            "ana.andrade@ifal.mx"
-          ],
-          "is_new": true
-        },
         {
           "title": "Directeur d’Alliance Française Mérida",
           "apply_url": "https://ifal.mx/ofertas/directeur-d-alliance-francaise-merida",
@@ -285,8 +274,35 @@
           "deadline": "2026-05-26",
           "status": "active",
           "relevance": "out_of_scope",
-          "notes": "Candidatures à envoyer jusqu’au 26 mai 2026.",
-          "is_new": true
+          "notes": "Candidatures à envoyer jusqu’au 26 mai 2026 (deadline = hoy).",
+          "is_new": false
+        },
+        {
+          "title": "Agent(e) administratif(ve) CLE / certificaciones DELF DALF",
+          "apply_url": "https://ifal.mx/ofertas/agent-e-administratif-ve-au-service-de-la-cooperation-linguistique-et-educative-cle-et-de-la-coordination-nationale-des-certifications-delf-dalf-du-mexique",
+          "location": "CDMX · IFAL / Embajada de Francia",
+          "deadline": "2026-05-20",
+          "status": "closed",
+          "relevance": "in_scope",
+          "notes": "Deadline pasado (2026-05-20). Aún visible en el listado al 2026-05-26.",
+          "contact_emails": [
+            "heloise.thieulin@ifal.mx",
+            "cesar.montealegre@ifal.mx",
+            "andrea.caldas@ifal.mx",
+            "pauline.delomez@ifal.mx",
+            "ana.andrade@ifal.mx"
+          ],
+          "is_new": false
+        },
+        {
+          "title": "Chargé de mission communication, valorisation et renforcement institutionnel",
+          "apply_url": "https://ifal.mx/ofertas/appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
+          "location": "México / cooperación franco-mexicana",
+          "deadline": "2026-05-15",
+          "status": "closed",
+          "relevance": "in_scope",
+          "notes": "Deadline pasado; removida del listado el 2026-05-26.",
+          "is_new": false
         }
       ]
     },
@@ -295,7 +311,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -343,7 +359,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -363,7 +379,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -383,7 +399,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-05-20",
+      "last_checked": "2026-05-26",
       "failed_today": false,
       "vacancies": []
     },
@@ -392,8 +408,8 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-05-12",
-      "failed_today": true,
+      "last_checked": "2026-05-26",
+      "failed_today": false,
       "vacancies": []
     }
   ]

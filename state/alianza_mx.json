@@ -1,8 +1,8 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-05-20",
-  "fetch_method": "playwright",
+  "last_checked": "2026-05-26",
+  "fetch_method": "webfetch",
   "vacancies": [
     {
       "id": "candidature-spontanee-professeur-fle",
@@ -19,7 +19,7 @@
     },
     {
       "id": "encargado-de-mantenimiento-e-intendente",
-      "title": "Encargado de mantenimiento e intendente",
+      "title": "Personal de mantenimiento e intendencia",
       "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
@@ -29,7 +29,7 @@
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
       "salary": "$12,200 MXN bruto mensual",
-      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés.",
+      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés. Requisitos: nivel técnico, mínimo 30 años, 3 años de experiencia.",
       "first_seen": "2026-05-20"
     }
   ]
