@@ -1,7 +1,7 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-05-26",
+  "last_checked": "2026-06-03",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -17,13 +17,25 @@
     {
       "id": "encargadoa-de-cafeteria",
       "title": "Encargado(a) de Cafetería",
+      "display_title": "Cafeteria Manager",
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "location": "CDMX · Museo Franz Mayer",
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Operar la cafetería del museo como unidad de sostenibilidad rentable, alineada con la propuesta cultural del recinto. Incluye experiencia gastronómica de calidad y generación de ingresos.",
+      "notes": "Operar la cafetería del museo como unidad rentable, segura y sustentable, alineada con la propuesta cultural del recinto.",
       "first_seen": "2026-05-26"
+    },
+    {
+      "id": "room-guide",
+      "title": "Room Guide",
+      "apply_url": "https://franzmayer.org.mx/vacantes",
+      "location": "CDMX · Museo Franz Mayer",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Cuidar y proteger la colección permanente y exposiciones temporales; facilitar recorridos seguros, acogedores y enriquecedores para visitantes.",
+      "first_seen": "2026-06-03"
     }
   ]
 }

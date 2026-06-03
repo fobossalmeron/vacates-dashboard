@@ -1,9 +1,37 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-05-26",
-  "fetch_method": "webfetch",
+  "last_checked": "2026-06-03",
+  "fetch_method": "playwright",
   "vacancies": [
+    {
+      "id": "offre-de-stage-cooperation-audiovisuelle-de-l-ifal",
+      "title": "Offre de stage - Coopération audiovisuelle de l'IFAL",
+      "apply_url": "https://ifal.mx/ofertas/offre-de-stage-cooperation-audiovisuelle-de-l-ifal",
+      "location": "CDMX · IFAL / Ambassade de France",
+      "deadline": "2026-06-21",
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "andrea.caldas@ifal.mx",
+        "pauline.delomez@ifal.mx",
+        "fabienne.aguado@ifal.mx"
+      ],
+      "notes": "Stage de 4 meses a partir del 17 de agosto de 2026; cooperación audiovisual del IFAL. Enviar CV y carta de motivación en francés antes del 21/06/2026.",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "offre-de-stage-long-cooperation-scientifique-technique-et-patrimoniale-au-scac-ifal-de-l-ambassade-de-france-au-mexique",
+      "title": "Offre de stage long - Coopération scientifique, technique et patrimoniale au SCAC IFAL de l'Ambassade de France au Mexique",
+      "display_title": "Offre de stage long — Coopération scientifique, technique et patrimoniale",
+      "apply_url": "https://ifal.mx/ofertas/offre-de-stage-long-cooperation-scientifique-technique-et-patrimoniale-au-scac-ifal-de-l-ambassade-de-france-au-mexique",
+      "location": "CDMX · Ambassade de France / IFAL",
+      "deadline": "2026-06-03",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Stage de 4 meses del 10/08/2026 al 04/12/2026; oferta completa en PASS Fonction Publique. Deadline hoy.",
+      "first_seen": "2026-06-03"
+    },
     {
       "id": "appel-a-candidature-en-prestation-de-service-charge-de-mission-communication-valorisation-et-renforcement-institutionnel",
       "title": "Appel à candidature en prestation de service - Chargé de mission communication, valorisation et renforcement institutionnel",
@@ -42,9 +70,9 @@
       "apply_url": "https://ifal.mx/ofertas/directeur-d-alliance-francaise-merida",
       "location": "Mérida",
       "deadline": "2026-05-26",
-      "status": "active",
+      "status": "closed",
       "relevance": "out_of_scope",
-      "notes": "Candidatures à envoyer jusqu’au 26 mai 2026 (deadline = hoy).",
+      "notes": "Removida del listado el 2026-06-03; deadline pasado (2026-05-26).",
       "first_seen": "2026-05-20"
     }
   ]

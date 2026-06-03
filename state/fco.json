@@ -1,10 +1,133 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-05-26",
+  "last_checked": "2026-06-03",
   "fetch_method": "webfetch",
-  "warning": "El URL actual NO está filtrando por México. Devuelve vacantes en LatAm general; conviene reemplazar por una URL filtrada por país México.",
   "vacancies": [
+    {
+      "id": "deputy-head-of-hr-brasilia",
+      "title": "Deputy Head of HR, Brasilia",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26878-Deputy-Head-of-HR-Brasilia/en-GB",
+      "location": "Brasilia",
+      "deadline": "2026-06-03",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-05-26"
+    },
+    {
+      "id": "assistant-political-officer-mexico-city",
+      "title": "Assistant Political Officer",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26918-Assistant-Political-Officer/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-03",
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "business-and-trade-intern-british-embassy-santiago",
+      "title": "Business and Trade Intern: Department for Business and Trade, British Embassy Santiago",
+      "display_title": "Business and Trade Intern — British Embassy Santiago",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26908-Business-and-Trade-Intern-Department-for-Business-and-Trade-British-Embassy-Santiago/en-GB",
+      "location": "Santiago",
+      "deadline": "2026-06-07",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-05-26"
+    },
+    {
+      "id": "climate-and-development-intern-mexico-city",
+      "title": "Climate and Development Intern, Mexico City",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26939-Climate-and-Development-Intern-Mexico-City/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-14",
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "communications-interns-san-jose",
+      "title": "Communications Interns",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26928-Communications-Interns/en-GB",
+      "location": "San Jose",
+      "deadline": "2026-06-15",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "internship-department-for-business-and-trade-british-embassy-mexico-city",
+      "title": "Internship- Department for Business and Trade: British Embassy, Mexico City",
+      "display_title": "Internship — Department for Business and Trade: British Embassy, Mexico City",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26945-Internship-Department-for-Business-and-Trade-British-Embassy-Mexico-City/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-15",
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "business-trade-advisor-intern-mexico-city",
+      "title": "Business & Trade Advisor Intern, Mexico City",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26916-Business-Trade-Advisor-Intern-Mexico-City/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-17",
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "senior-defence-exports-adviser-brazil-rio-de-janeiro",
+      "title": "Senior Defence Exports Adviser – Brazil",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26936-Senior-Defence-Exports-Adviser-Brazil/en-GB",
+      "location": "Rio De Janeiro",
+      "deadline": "2026-06-21",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "head-of-defence-exports-brazil-rio-de-janeiro",
+      "title": "Head of Defence Exports – Brazil",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26935-Head-of-Defence-Exports-Brazil/en-GB",
+      "location": "Rio De Janeiro",
+      "deadline": "2026-06-21",
+      "status": "active",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "dbt-intern-mexico-city",
+      "title": "DBT Intern, Mexico City",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-9a0162654cf4/candidate/so/pm/4/pl/1/opp/26958-DBT-Intern-Mexico-City/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-23",
+      "status": "active",
+      "relevance": "in_scope",
+      "first_seen": "2026-06-03"
+    },
+    {
+      "id": "market-access-trade-policy-manager-mexico-city",
+      "title": "Market Access & Trade Policy Manager",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26802-Market-Access-Trade-Policy-Manager/en-GB",
+      "location": "Mexico City",
+      "deadline": "2026-06-01",
+      "status": "closed",
+      "relevance": "in_scope",
+      "first_seen": "2026-05-07",
+      "notes": "Removida del listado el 2026-06-03; deadline pasado (2026-06-01)."
+    },
+    {
+      "id": "vice-consul-and-corporate-services-officer-montevideo",
+      "title": "Vice Consul and Corporate Services Officer",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26862-Vice-Consul-and-Corporate-Services-Officer/en-GB",
+      "location": "Montevideo",
+      "deadline": "2026-05-27",
+      "status": "closed",
+      "relevance": "out_of_scope",
+      "first_seen": "2026-05-20",
+      "notes": "Removida del listado el 2026-06-03; deadline pasado (2026-05-27)."
+    },
     {
       "id": "post-security-and-crisis-manager-lima",
       "title": "Post Security and Crisis Manager",
@@ -27,48 +150,6 @@
       "relevance": "out_of_scope",
       "first_seen": "2026-05-01",
       "notes": "Removida del listado el 2026-05-26."
-    },
-    {
-      "id": "market-access-trade-policy-manager-mexico-city",
-      "title": "Market Access & Trade Policy Manager",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26802-Market-Access-Trade-Policy-Manager/en-GB",
-      "location": "Mexico City",
-      "deadline": "2026-06-01",
-      "status": "active",
-      "relevance": "in_scope",
-      "first_seen": "2026-05-07",
-      "notes": "Deadline extendida del 25 mayo al 1 junio 2026."
-    },
-    {
-      "id": "vice-consul-and-corporate-services-officer-montevideo",
-      "title": "Vice Consul and Corporate Services Officer",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26862-Vice-Consul-and-Corporate-Services-Officer/en-GB",
-      "location": "Montevideo",
-      "deadline": "2026-05-27",
-      "status": "active",
-      "relevance": "out_of_scope",
-      "first_seen": "2026-05-20"
-    },
-    {
-      "id": "deputy-head-of-hr-brasilia",
-      "title": "Deputy Head of HR, Brasilia",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26878-Deputy-Head-of-HR-Brasilia/en-GB",
-      "location": "Brasilia",
-      "deadline": "2026-06-03",
-      "status": "active",
-      "relevance": "out_of_scope",
-      "first_seen": "2026-05-26"
-    },
-    {
-      "id": "business-and-trade-intern-british-embassy-santiago",
-      "title": "Business and Trade Intern: Department for Business and Trade, British Embassy Santiago",
-      "display_title": "Business and Trade Intern — British Embassy Santiago",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-3815bc198964/candidate/so/pm/4/pl/1/opp/26908-Business-and-Trade-Intern-Department-for-Business-and-Trade-British-Embassy-Santiago/en-GB",
-      "location": "Santiago",
-      "deadline": "2026-06-07",
-      "status": "active",
-      "relevance": "out_of_scope",
-      "first_seen": "2026-05-26"
     },
     {
       "id": "estates-operational-and-health-safety-officer-bogota",

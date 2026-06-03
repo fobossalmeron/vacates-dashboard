@@ -1,9 +1,20 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-05-26",
+  "last_checked": "2026-06-03",
   "fetch_method": "playwright",
   "vacancies": [
+    {
+      "id": "business-performance-support-manager",
+      "title": "Business Performance Support Manager",
+      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362945",
+      "location": "Mexico + 1 more · Hybrid",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Área Exams; publicado un día antes de la corrida según el listado de British Council.",
+      "first_seen": "2026-06-03"
+    },
     {
       "id": "teacher-of-english",
       "title": "Teacher of English",
@@ -15,6 +26,5 @@
       "notes": "Removida del listado el 2026-05-20.",
       "first_seen": "2026-05-12"
     }
-  ],
-  "notes": "El listado público (Mexico + remoto) muestra 0 trabajos."
+  ]
 }
