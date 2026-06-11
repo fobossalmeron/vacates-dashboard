@@ -1,7 +1,7 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-11",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -29,8 +29,23 @@
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
       "salary": "$12,200 MXN bruto mensual",
-      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés. Requisitos: nivel técnico, mínimo 30 años, 3 años de experiencia.",
+      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés.",
       "first_seen": "2026-05-20"
+    },
+    {
+      "id": "asistente-de-mediateca-centro-del-valle",
+      "title": "Asistente de Mediateca Centro Del Valle",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+      "location": "CDMX · Centro Del Valle",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "mbanuelos@alianzafrancesamx.edu.mx"
+      ],
+      "salary": "$14,500 MXN bruto mensual",
+      "notes": "Licenciatura en Biblioteconomía o similar; francés preferente; experiencia mínima de un año en mediateca/biblioteca/hemeroteca. Horario lunes a jueves 9:00-19:00 y sábados 9:00-13:00.",
+      "first_seen": "2026-06-11"
     }
   ]
 }

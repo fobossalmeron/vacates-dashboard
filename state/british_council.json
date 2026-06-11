@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-11",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -10,9 +10,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362945",
       "location": "Mexico + 1 more · Hybrid",
       "deadline": null,
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Área Exams; publicado un día antes de la corrida según el listado de British Council.",
+      "notes": "Removida del listado el 2026-06-11.",
       "first_seen": "2026-06-03"
     },
     {

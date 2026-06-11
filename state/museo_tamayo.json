@@ -1,7 +1,8 @@
 {
   "site": "museo_tamayo",
   "url": "https://www.museotamayo.org/vacantes",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-11",
   "fetch_method": "webfetch",
-  "vacancies": []
+  "vacancies": [],
+  "notes": "La página indica: \"Por el momento todas nuestras vacantes están cubiertas.\""
 }

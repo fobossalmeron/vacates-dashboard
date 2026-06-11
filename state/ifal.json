@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-11",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -17,7 +17,7 @@
         "pauline.delomez@ifal.mx",
         "fabienne.aguado@ifal.mx"
       ],
-      "notes": "Stage de 4 meses a partir del 17 de agosto de 2026; cooperación audiovisual del IFAL. Enviar CV y carta de motivación en francés antes del 21/06/2026.",
+      "notes": "Stage de 4 meses a partir del 17 de agosto de 2026; cooperación audiovisual del IFAL. Candidature jusqu’au 21 juin.",
       "first_seen": "2026-06-03"
     },
     {
@@ -27,9 +27,9 @@
       "apply_url": "https://ifal.mx/ofertas/offre-de-stage-long-cooperation-scientifique-technique-et-patrimoniale-au-scac-ifal-de-l-ambassade-de-france-au-mexique",
       "location": "CDMX · Ambassade de France / IFAL",
       "deadline": "2026-06-03",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Stage de 4 meses del 10/08/2026 al 04/12/2026; oferta completa en PASS Fonction Publique. Deadline hoy.",
+      "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-11.",
       "first_seen": "2026-06-03"
     },
     {

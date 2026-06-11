@@ -1,9 +1,20 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-11",
   "fetch_method": "webfetch",
   "vacancies": [
+    {
+      "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
+      "title": "Auxiliar — Embajada de España en México (2 plazas)",
+      "apply_url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Documents/BASES%20CONVOCATORIA%20DOS%20PLAZAS%20AUXILIARES%20ADMINISTRATIVOS.pdf",
+      "location": "CDMX",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Bases publicadas el 2026-06-04 para dos plazas de auxiliar.",
+      "first_seen": "2026-06-11"
+    },
     {
       "id": "auxiliar-administrativo-oce",
       "title": "Auxiliar Administrativo (OCE)",
