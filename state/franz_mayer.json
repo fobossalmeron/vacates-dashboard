@@ -1,19 +1,9 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-06-03",
+  "last_checked": "2026-06-15",
   "fetch_method": "playwright",
   "vacancies": [
-    {
-      "id": "disenadora-de-exposiciones",
-      "title": "Diseñador(a) de Exposiciones",
-      "apply_url": "https://franzmayer.org.mx/vacantes",
-      "deadline": null,
-      "status": "closed",
-      "relevance": "in_scope",
-      "notes": "Removida del listado el 2026-05-26.",
-      "first_seen": "2026-05-01"
-    },
     {
       "id": "encargadoa-de-cafeteria",
       "title": "Encargado(a) de Cafetería",
@@ -27,14 +17,26 @@
       "first_seen": "2026-05-26"
     },
     {
-      "id": "room-guide",
-      "title": "Room Guide",
+      "id": "disenadora-de-exposiciones",
+      "title": "Diseñador(a) de Exposiciones",
+      "display_title": "Exhibition Designer",
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "location": "CDMX · Museo Franz Mayer",
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Cuidar y proteger la colección permanente y exposiciones temporales; facilitar recorridos seguros, acogedores y enriquecedores para visitantes.",
+      "notes": "Diseñar la identidad visual de proyectos expositivos y alinear narrativa, comunicación y experiencia pública. Reapareció en el listado el 2026-06-15.",
+      "first_seen": "2026-06-15"
+    },
+    {
+      "id": "room-guide",
+      "title": "Room Guide",
+      "apply_url": "https://franzmayer.org.mx/vacantes",
+      "location": "CDMX · Museo Franz Mayer",
+      "deadline": null,
+      "status": "closed",
+      "relevance": "in_scope",
+      "notes": "Removida del listado el 2026-06-15.",
       "first_seen": "2026-06-03"
     }
   ]

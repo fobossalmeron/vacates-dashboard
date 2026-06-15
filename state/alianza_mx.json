@@ -1,7 +1,7 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-06-11",
+  "last_checked": "2026-06-15",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -38,13 +38,13 @@
       "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
       "contact_emails": [
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
       "salary": "$14,500 MXN bruto mensual",
-      "notes": "Licenciatura en Biblioteconomía o similar; francés preferente; experiencia mínima de un año en mediateca/biblioteca/hemeroteca. Horario lunes a jueves 9:00-19:00 y sábados 9:00-13:00.",
+      "notes": "Removida del listado el 2026-06-15.",
       "first_seen": "2026-06-11"
     }
   ]
