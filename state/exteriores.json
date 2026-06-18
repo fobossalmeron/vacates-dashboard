@@ -1,8 +1,8 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-06-15",
-  "fetch_method": "playwright",
+  "last_checked": "2026-06-18",
+  "fetch_method": "webfetch",
   "vacancies": [
     {
       "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
@@ -34,7 +34,7 @@
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Publicado 2026-03-30; lista provisional de admisión 2026-04-22.",
+      "notes": "Publicado 2026-03-30; relación definitiva de personas admitidas y excluidas publicada el 2026-06-17.",
       "first_seen": "2026-05-01"
     }
   ]

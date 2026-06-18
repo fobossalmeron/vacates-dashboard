@@ -1,21 +1,9 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-06-15",
+  "last_checked": "2026-06-18",
   "fetch_method": "playwright",
   "vacancies": [
-    {
-      "id": "encargadoa-de-cafeteria",
-      "title": "Encargado(a) de Cafetería",
-      "display_title": "Cafeteria Manager",
-      "apply_url": "https://franzmayer.org.mx/vacantes",
-      "location": "CDMX · Museo Franz Mayer",
-      "deadline": null,
-      "status": "active",
-      "relevance": "in_scope",
-      "notes": "Operar la cafetería del museo como unidad rentable, segura y sustentable, alineada con la propuesta cultural del recinto.",
-      "first_seen": "2026-05-26"
-    },
     {
       "id": "disenadora-de-exposiciones",
       "title": "Diseñador(a) de Exposiciones",
@@ -25,8 +13,20 @@
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Diseñar la identidad visual de proyectos expositivos y alinear narrativa, comunicación y experiencia pública. Reapareció en el listado el 2026-06-15.",
+      "notes": "Diseñar la identidad visual de proyectos expositivos y alinear narrativa, comunicación y experiencia pública.",
       "first_seen": "2026-06-15"
+    },
+    {
+      "id": "encargadoa-de-cafeteria",
+      "title": "Encargado(a) de Cafetería",
+      "display_title": "Cafeteria Manager",
+      "apply_url": "https://franzmayer.org.mx/vacantes",
+      "location": "CDMX · Museo Franz Mayer",
+      "deadline": null,
+      "status": "closed",
+      "relevance": "in_scope",
+      "notes": "Removida del listado el 2026-06-18.",
+      "first_seen": "2026-05-26"
     },
     {
       "id": "room-guide",
