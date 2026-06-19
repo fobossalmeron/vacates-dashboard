@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-06-18",
+  "last_run": "2026-06-19",
   "is_baseline": false,
   "scope": "CDMX / remoto / duda; fuera de scope si otra ciudad explícita.",
   "summary": {
@@ -7,9 +7,9 @@
     "sites_with_error": 0,
     "relevant_active": 13,
     "out_of_scope": 26,
-    "closed": 31,
-    "new_today": 4,
-    "removed_today": 4
+    "closed": 32,
+    "new_today": 0,
+    "removed_today": 1
   },
   "warnings": [
     {
@@ -19,20 +19,8 @@
   ],
   "closed_today": [
     {
-      "title": "Communications Interns",
+      "title": "Projects and Public Diplomacy Officer",
       "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "Internship — Department for Business and Trade: British Embassy, Mexico City",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "Business & Trade Advisor Intern, Mexico City",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "title": "Cafeteria Manager",
-      "siteName": "Museo Franz Mayer"
     }
   ],
   "sites": [
@@ -41,18 +29,9 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
-        {
-          "title": "Projects and Public Diplomacy Officer",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26933-Projects-and-Public-Diplomacy-Officer/en-GB",
-          "location": "Panama City",
-          "deadline": "2026-06-18",
-          "status": "active",
-          "relevance": "out_of_scope",
-          "is_new": false
-        },
         {
           "title": "Public Diplomacy Intern, Mexico City",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26972-Public-Diplomacy-Intern-Mexico-City/en-GB",
@@ -132,7 +111,7 @@
           "deadline": "2026-07-01",
           "status": "active",
           "relevance": "out_of_scope",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Finance and Estates Manager, Quito",
@@ -141,7 +120,7 @@
           "deadline": "2026-07-01",
           "status": "active",
           "relevance": "out_of_scope",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Estates Intern",
@@ -150,7 +129,7 @@
           "deadline": "2026-07-02",
           "status": "active",
           "relevance": "out_of_scope",
-          "is_new": true
+          "is_new": false
         },
         {
           "title": "Inward Investment Intern, DBT, Mexico City",
@@ -177,7 +156,17 @@
           "deadline": "2026-07-08",
           "status": "active",
           "relevance": "out_of_scope",
-          "is_new": true
+          "is_new": false
+        },
+        {
+          "title": "Projects and Public Diplomacy Officer",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26933-Projects-and-Public-Diplomacy-Officer/en-GB",
+          "location": "Panama City",
+          "deadline": "2026-06-18",
+          "status": "closed",
+          "relevance": "out_of_scope",
+          "notes": "Removida del listado el 2026-06-19; deadline pasado (2026-06-18).",
+          "is_new": false
         },
         {
           "title": "Communications Interns",
@@ -357,7 +346,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -397,7 +386,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -437,7 +426,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -476,7 +465,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -496,7 +485,7 @@
           "deadline": "2026-06-03",
           "status": "closed",
           "relevance": "in_scope",
-          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-18.",
+          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-19.",
           "is_new": false
         },
         {
@@ -536,7 +525,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -574,7 +563,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -594,7 +583,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -624,7 +613,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": []
     },
@@ -633,7 +622,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-06-18",
+      "last_checked": "2026-06-19",
       "failed_today": false,
       "vacancies": []
     }

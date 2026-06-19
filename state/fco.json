@@ -1,19 +1,9 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-06-18",
+  "last_checked": "2026-06-19",
   "fetch_method": "webfetch",
   "vacancies": [
-    {
-      "id": "projects-and-public-diplomacy-officer-panama-city",
-      "title": "Projects and Public Diplomacy Officer",
-      "location": "Panama City",
-      "deadline": "2026-06-18",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26933-Projects-and-Public-Diplomacy-Officer/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-11"
-    },
     {
       "id": "public-diplomacy-intern-mexico-city",
       "title": "Public Diplomacy Intern, Mexico City",
@@ -153,6 +143,17 @@
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-06-18"
+    },
+    {
+      "id": "projects-and-public-diplomacy-officer-panama-city",
+      "title": "Projects and Public Diplomacy Officer",
+      "location": "Panama City",
+      "deadline": "2026-06-18",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26933-Projects-and-Public-Diplomacy-Officer/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-11",
+      "notes": "Removida del listado el 2026-06-19; deadline pasado (2026-06-18)."
     },
     {
       "id": "communications-interns-san-jose",
