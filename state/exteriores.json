@@ -1,7 +1,7 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-06-19",
+  "last_checked": "2026-06-22",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -12,7 +12,7 @@
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Bases publicadas el 2026-06-04 para dos plazas de auxiliar.",
+      "notes": "Bases publicadas el 2026-06-04; lista provisional de personas admitidas y excluidas publicada el 2026-06-22.",
       "first_seen": "2026-06-11"
     },
     {

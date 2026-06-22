@@ -1,39 +1,9 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-06-19",
+  "last_checked": "2026-06-22",
   "fetch_method": "webfetch",
   "vacancies": [
-    {
-      "id": "public-diplomacy-intern-mexico-city",
-      "title": "Public Diplomacy Intern, Mexico City",
-      "location": "Mexico City",
-      "deadline": "2026-06-19",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26972-Public-Diplomacy-Intern-Mexico-City/en-GB",
-      "relevance": "in_scope",
-      "status": "active",
-      "first_seen": "2026-06-11"
-    },
-    {
-      "id": "senior-defence-exports-adviser-brazil-rio-de-janeiro",
-      "title": "Senior Defence Exports Adviser – Brazil",
-      "location": "Rio De Janeiro",
-      "deadline": "2026-06-21",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26936-Senior-Defence-Exports-Adviser-Brazil/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-03"
-    },
-    {
-      "id": "head-of-defence-exports-brazil-rio-de-janeiro",
-      "title": "Head of Defence Exports – Brazil",
-      "location": "Rio De Janeiro",
-      "deadline": "2026-06-21",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26935-Head-of-Defence-Exports-Brazil/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-03"
-    },
     {
       "id": "political-and-economics-intern-caracas",
       "title": "Political and Economics Intern",
@@ -143,6 +113,39 @@
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-06-18"
+    },
+    {
+      "id": "public-diplomacy-intern-mexico-city",
+      "title": "Public Diplomacy Intern, Mexico City",
+      "location": "Mexico City",
+      "deadline": "2026-06-19",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26972-Public-Diplomacy-Intern-Mexico-City/en-GB",
+      "relevance": "in_scope",
+      "status": "closed",
+      "first_seen": "2026-06-11",
+      "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-19)."
+    },
+    {
+      "id": "senior-defence-exports-adviser-brazil-rio-de-janeiro",
+      "title": "Senior Defence Exports Adviser – Brazil",
+      "location": "Rio De Janeiro",
+      "deadline": "2026-06-21",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26936-Senior-Defence-Exports-Adviser-Brazil/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-03",
+      "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-21)."
+    },
+    {
+      "id": "head-of-defence-exports-brazil-rio-de-janeiro",
+      "title": "Head of Defence Exports – Brazil",
+      "location": "Rio De Janeiro",
+      "deadline": "2026-06-21",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26935-Head-of-Defence-Exports-Brazil/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-03",
+      "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-21)."
     },
     {
       "id": "projects-and-public-diplomacy-officer-panama-city",

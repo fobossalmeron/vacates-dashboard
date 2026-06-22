@@ -1,7 +1,7 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-06-19",
+  "last_checked": "2026-06-22",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -11,9 +11,9 @@
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "location": "CDMX · Museo Franz Mayer",
       "deadline": null,
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Diseñar la identidad visual de proyectos expositivos y alinear narrativa, comunicación y experiencia pública.",
+      "notes": "Removida del listado el 2026-06-22.",
       "first_seen": "2026-06-15"
     },
     {

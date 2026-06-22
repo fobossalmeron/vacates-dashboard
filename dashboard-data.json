@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-06-19",
+  "last_run": "2026-06-22",
   "is_baseline": false,
   "scope": "CDMX / remoto / duda; fuera de scope si otra ciudad explícita.",
   "summary": {
     "sites_checked": 10,
     "sites_with_error": 0,
-    "relevant_active": 13,
+    "relevant_active": 10,
     "out_of_scope": 26,
-    "closed": 32,
+    "closed": 37,
     "new_today": 0,
-    "removed_today": 1
+    "removed_today": 5
   },
   "warnings": [
     {
@@ -19,8 +19,24 @@
   ],
   "closed_today": [
     {
-      "title": "Projects and Public Diplomacy Officer",
+      "title": "Public Diplomacy Intern, Mexico City",
       "siteName": "FCO Talent (UK Foreign Office)"
+    },
+    {
+      "title": "Senior Defence Exports Adviser – Brazil",
+      "siteName": "FCO Talent (UK Foreign Office)"
+    },
+    {
+      "title": "Head of Defence Exports – Brazil",
+      "siteName": "FCO Talent (UK Foreign Office)"
+    },
+    {
+      "title": "Exhibition Designer",
+      "siteName": "Museo Franz Mayer"
+    },
+    {
+      "title": "Offre de stage - Coopération audiovisuelle de l'IFAL",
+      "siteName": "IFAL"
     }
   ],
   "sites": [
@@ -29,36 +45,9 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
-        {
-          "title": "Public Diplomacy Intern, Mexico City",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26972-Public-Diplomacy-Intern-Mexico-City/en-GB",
-          "location": "Mexico City",
-          "deadline": "2026-06-19",
-          "status": "active",
-          "relevance": "in_scope",
-          "is_new": false
-        },
-        {
-          "title": "Senior Defence Exports Adviser – Brazil",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26936-Senior-Defence-Exports-Adviser-Brazil/en-GB",
-          "location": "Rio De Janeiro",
-          "deadline": "2026-06-21",
-          "status": "active",
-          "relevance": "out_of_scope",
-          "is_new": false
-        },
-        {
-          "title": "Head of Defence Exports – Brazil",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26935-Head-of-Defence-Exports-Brazil/en-GB",
-          "location": "Rio De Janeiro",
-          "deadline": "2026-06-21",
-          "status": "active",
-          "relevance": "out_of_scope",
-          "is_new": false
-        },
         {
           "title": "Political and Economics Intern",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26986-Political-and-Economics-Intern/en-GB",
@@ -156,6 +145,36 @@
           "deadline": "2026-07-08",
           "status": "active",
           "relevance": "out_of_scope",
+          "is_new": false
+        },
+        {
+          "title": "Public Diplomacy Intern, Mexico City",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26972-Public-Diplomacy-Intern-Mexico-City/en-GB",
+          "location": "Mexico City",
+          "deadline": "2026-06-19",
+          "status": "closed",
+          "relevance": "in_scope",
+          "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-19).",
+          "is_new": false
+        },
+        {
+          "title": "Senior Defence Exports Adviser – Brazil",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26936-Senior-Defence-Exports-Adviser-Brazil/en-GB",
+          "location": "Rio De Janeiro",
+          "deadline": "2026-06-21",
+          "status": "closed",
+          "relevance": "out_of_scope",
+          "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-21).",
+          "is_new": false
+        },
+        {
+          "title": "Head of Defence Exports – Brazil",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26935-Head-of-Defence-Exports-Brazil/en-GB",
+          "location": "Rio De Janeiro",
+          "deadline": "2026-06-21",
+          "status": "closed",
+          "relevance": "out_of_scope",
+          "notes": "Removida del listado el 2026-06-22; deadline pasado (2026-06-21).",
           "is_new": false
         },
         {
@@ -346,7 +365,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -356,7 +375,7 @@
           "deadline": null,
           "status": "active",
           "relevance": "in_scope",
-          "notes": "Bases publicadas el 2026-06-04 para dos plazas de auxiliar.",
+          "notes": "Bases publicadas el 2026-06-04; lista provisional de personas admitidas y excluidas publicada el 2026-06-22.",
           "is_new": false
         },
         {
@@ -386,7 +405,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -394,9 +413,9 @@
           "apply_url": "https://franzmayer.org.mx/vacantes",
           "location": "CDMX · Museo Franz Mayer",
           "deadline": null,
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Diseñar la identidad visual de proyectos expositivos y alinear narrativa, comunicación y experiencia pública.",
+          "notes": "Removida del listado el 2026-06-22.",
           "is_new": false
         },
         {
@@ -426,7 +445,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -465,7 +484,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -473,9 +492,9 @@
           "apply_url": "https://ifal.mx/ofertas/offre-de-stage-cooperation-audiovisuelle-de-l-ifal",
           "location": "CDMX · IFAL / Ambassade de France",
           "deadline": "2026-06-21",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Stage de 4 meses a partir del 17 de agosto de 2026; cooperación audiovisual del IFAL. Candidature jusqu’au 21 juin.",
+          "notes": "Deadline pasado (2026-06-21); sigue visible en el listado al 2026-06-22.",
           "is_new": false
         },
         {
@@ -485,7 +504,7 @@
           "deadline": "2026-06-03",
           "status": "closed",
           "relevance": "in_scope",
-          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-19.",
+          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-22.",
           "is_new": false
         },
         {
@@ -525,7 +544,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -563,7 +582,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -583,7 +602,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": [
         {
@@ -613,7 +632,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": []
     },
@@ -622,7 +641,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-06-19",
+      "last_checked": "2026-06-22",
       "failed_today": false,
       "vacancies": []
     }
