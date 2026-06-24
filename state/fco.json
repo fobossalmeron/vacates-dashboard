@@ -1,39 +1,9 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-06-22",
+  "last_checked": "2026-06-24",
   "fetch_method": "webfetch",
   "vacancies": [
-    {
-      "id": "political-and-economics-intern-caracas",
-      "title": "Political and Economics Intern",
-      "location": "Caracas",
-      "deadline": "2026-06-22",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26986-Political-and-Economics-Intern/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-11"
-    },
-    {
-      "id": "dbt-intern-mexico-city-26985",
-      "title": "DBT Intern, Mexico City",
-      "location": "Mexico City",
-      "deadline": "2026-06-22",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26985-DBT-Intern-Mexico-City/en-GB",
-      "relevance": "in_scope",
-      "status": "active",
-      "first_seen": "2026-06-11"
-    },
-    {
-      "id": "dbt-intern-mexico-city",
-      "title": "DBT Intern, Mexico City",
-      "location": "Mexico City",
-      "deadline": "2026-06-23",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26958-DBT-Intern-Mexico-City/en-GB",
-      "relevance": "in_scope",
-      "status": "active",
-      "first_seen": "2026-06-03"
-    },
     {
       "id": "political-intern-mexico-city",
       "title": "Political Intern",
@@ -113,6 +83,39 @@
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-06-18"
+    },
+    {
+      "id": "political-and-economics-intern-caracas",
+      "title": "Political and Economics Intern",
+      "location": "Caracas",
+      "deadline": "2026-06-22",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26986-Political-and-Economics-Intern/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-11",
+      "notes": "Removida del listado el 2026-06-24; deadline pasado (2026-06-22)."
+    },
+    {
+      "id": "dbt-intern-mexico-city-26985",
+      "title": "DBT Intern, Mexico City",
+      "location": "Mexico City",
+      "deadline": "2026-06-22",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26985-DBT-Intern-Mexico-City/en-GB",
+      "relevance": "in_scope",
+      "status": "closed",
+      "first_seen": "2026-06-11",
+      "notes": "Removida del listado el 2026-06-24; deadline pasado (2026-06-22)."
+    },
+    {
+      "id": "dbt-intern-mexico-city",
+      "title": "DBT Intern, Mexico City",
+      "location": "Mexico City",
+      "deadline": "2026-06-23",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26958-DBT-Intern-Mexico-City/en-GB",
+      "relevance": "in_scope",
+      "status": "closed",
+      "first_seen": "2026-06-03",
+      "notes": "Removida del listado el 2026-06-24; deadline pasado (2026-06-23)."
     },
     {
       "id": "public-diplomacy-intern-mexico-city",
