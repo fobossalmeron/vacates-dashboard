@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-06-26",
+  "last_checked": "2026-06-29",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -17,7 +17,7 @@
         "pauline.delomez@ifal.mx",
         "fabienne.aguado@ifal.mx"
       ],
-      "notes": "Deadline pasado (2026-06-21); sigue visible en el listado al 2026-06-26.",
+      "notes": "Deadline pasado (2026-06-21); sigue visible en el listado al 2026-06-29.",
       "first_seen": "2026-06-03"
     },
     {
@@ -29,7 +29,7 @@
       "deadline": "2026-06-03",
       "status": "closed",
       "relevance": "in_scope",
-      "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-26.",
+      "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-29.",
       "first_seen": "2026-06-03"
     },
     {
