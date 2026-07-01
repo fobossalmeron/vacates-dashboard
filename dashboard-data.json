@@ -1,15 +1,15 @@
 {
-  "last_run": "2026-06-29",
+  "last_run": "2026-07-01",
   "is_baseline": false,
   "scope": "CDMX / remoto / duda; fuera de scope si otra ciudad explícita.",
   "summary": {
     "sites_checked": 10,
     "sites_with_error": 0,
     "relevant_active": 6,
-    "out_of_scope": 28,
+    "out_of_scope": 32,
     "closed": 42,
-    "new_today": 0,
-    "removed_today": 1
+    "new_today": 4,
+    "removed_today": 0
   },
   "warnings": [
     {
@@ -17,19 +17,14 @@
       "message": "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades."
     }
   ],
-  "closed_today": [
-    {
-      "title": "Ambassador’s Driver, Corporate Services",
-      "siteName": "FCO Talent (UK Foreign Office)"
-    }
-  ],
+  "closed_today": [],
   "sites": [
     {
       "key": "fco",
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -110,6 +105,39 @@
           "is_new": false
         },
         {
+          "id": "action-to-combat-transnational-serious-and-organised-crime-acts-latam-programme-officer-brasilia-brasilia",
+          "title": "Action to Combat Transnational Serious and Organised Crime (ACTS -LATAM) Programme Officer - Brasilia",
+          "location": "Brasilia",
+          "deadline": "2026-07-15",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27128-Action-to-Combat-Transnational-Serious-and-Organised-Crime-ACTS-LATAM-Programme-Officer-Brasilia/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-07-01",
+          "is_new": true
+        },
+        {
+          "id": "climate-and-political-intern-british-consulate-general-sao-paulo-sao-paulo",
+          "title": "Climate and Political Intern - British Consulate General São Paulo",
+          "location": "Sao Paulo",
+          "deadline": "2026-07-15",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27130-Climate-and-Political-Intern-British-Consulate-General-S%C3%A3o-Paulo/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-07-01",
+          "is_new": true
+        },
+        {
+          "id": "environmental-climate-and-science-intern-economic-climate-and-science-team-bogota-bogota",
+          "title": "Environmental, Climate and Science Intern Economic, Climate and Science Team, Bogotá",
+          "location": "Bogota",
+          "deadline": "2026-07-15",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27133-Environmental-Climate-and-Science-Intern-Economic-Climate-and-Science-Team-Bogot%C3%A1/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-07-01",
+          "is_new": true
+        },
+        {
           "id": "head-of-science-technology-network-colombia-british-embassy-bogota-bogota",
           "title": "Head of Science & Technology Network Colombia, British Embassy Bogota",
           "location": "Bogota",
@@ -119,6 +147,17 @@
           "status": "active",
           "first_seen": "2026-06-26",
           "is_new": false
+        },
+        {
+          "id": "political-officer-guatemala-guatemala-city",
+          "title": "Political Officer, Guatemala",
+          "location": "Guatemala City",
+          "deadline": "2026-07-21",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27119-Political-Officer-Guatemala/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-07-01",
+          "is_new": true
         },
         {
           "id": "ambassador-s-driver-corporate-services-mexico-city",
@@ -445,7 +484,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -479,7 +518,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -525,7 +564,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -573,7 +612,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": []
     },
@@ -582,7 +621,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -638,7 +677,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -694,7 +733,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -710,7 +749,7 @@
             "pauline.delomez@ifal.mx",
             "fabienne.aguado@ifal.mx"
           ],
-          "notes": "Deadline pasado (2026-06-21); sigue visible en el listado al 2026-06-29.",
+          "notes": "Deadline pasado (2026-06-21); sigue visible en el listado al 2026-07-01.",
           "first_seen": "2026-06-03",
           "is_new": false
         },
@@ -723,7 +762,7 @@
           "deadline": "2026-06-03",
           "status": "closed",
           "relevance": "in_scope",
-          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-06-29.",
+          "notes": "Deadline pasado (2026-06-03); sigue visible en el listado al 2026-07-01.",
           "first_seen": "2026-06-03",
           "is_new": false
         },
@@ -780,7 +819,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": []
     },
@@ -789,7 +828,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-06-29",
+      "last_checked": "2026-07-01",
       "failed_today": false,
       "vacancies": [
         {
