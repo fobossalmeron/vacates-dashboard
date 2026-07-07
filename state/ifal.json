@@ -1,9 +1,20 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-07-01",
+  "last_checked": "2026-07-06",
   "fetch_method": "playwright",
   "vacancies": [
+    {
+      "id": "stagiaire-en-cooperation-educative",
+      "title": "Stagiaire en coopération éducative",
+      "apply_url": "https://ifal.mx/ofertas/stagiaire-en-cooperation-educative",
+      "location": "CDMX · IFAL / Ambassade de France",
+      "deadline": "2026-07-15",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Offre de stage publicada en IFAL; fecha mostrada en listado: 15 de julio.",
+      "first_seen": "2026-07-06"
+    },
     {
       "id": "offre-de-stage-cooperation-audiovisuelle-de-l-ifal",
       "title": "Offre de stage - Coopération audiovisuelle de l'IFAL",

@@ -1,7 +1,7 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-07-01",
+  "last_checked": "2026-07-06",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -18,8 +18,8 @@
       "first_seen": "2026-05-01"
     },
     {
-      "id": "encargado-de-mantenimiento-e-intendente",
-      "title": "Personal de mantenimiento e intendencia",
+      "id": "personal-de-intendencia",
+      "title": "Personal de intendencia",
       "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
@@ -28,8 +28,23 @@
       "contact_emails": [
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
+      "salary": "$9,451.20 MXN bruto mensual",
+      "notes": "Intendencia y limpieza de aulas, oficinas, áreas comunes y sanitarios. Horario lunes a viernes 8:00-17:00 y sábados 7:30-13:00; prestaciones de ley; Seguro Social desde el primer día; beca de francés a los seis meses. WhatsApp: 5570496631 / 5574582253.",
+      "first_seen": "2026-07-06"
+    },
+    {
+      "id": "encargado-de-mantenimiento-e-intendente",
+      "title": "Personal de mantenimiento e intendencia",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+      "location": "CDMX · Centro Del Valle",
+      "deadline": null,
+      "status": "closed",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "mbanuelos@alianzafrancesamx.edu.mx"
+      ],
       "salary": "$12,200 MXN bruto mensual",
-      "notes": "Mantenimiento general, limpieza y supervisión de instalaciones. Jornada completa; prestaciones de ley; Seguro Social desde el primer día; beca para estudiar francés.",
+      "notes": "Removida del listado el 2026-07-06.",
       "first_seen": "2026-05-20"
     },
     {
