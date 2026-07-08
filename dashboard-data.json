@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-07-06",
+  "last_run": "2026-07-07",
   "is_baseline": false,
   "scope": "CDMX / remoto / duda; fuera de scope si otra ciudad explícita.",
   "summary": {
@@ -7,9 +7,9 @@
     "sites_with_error": 0,
     "relevant_active": 6,
     "out_of_scope": 34,
-    "closed": 47,
-    "new_today": 4,
-    "removed_today": 5
+    "closed": 48,
+    "new_today": 0,
+    "removed_today": 1
   },
   "warnings": [
     {
@@ -19,71 +19,15 @@
   ],
   "closed_today": [
     {
-      "id": "encargado-de-mantenimiento-e-intendente",
-      "title": "Personal de mantenimiento e intendencia",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-      "location": "CDMX · Centro Del Valle",
-      "deadline": null,
-      "status": "closed",
-      "relevance": "in_scope",
-      "contact_emails": [
-        "mbanuelos@alianzafrancesamx.edu.mx"
-      ],
-      "salary": "$12,200 MXN bruto mensual",
-      "notes": "Removida del listado el 2026-07-06.",
-      "first_seen": "2026-05-20",
-      "site_key": "alianza_mx",
-      "site_name": "Alianza Francesa de México (.edu.mx)"
-    },
-    {
-      "id": "post-security-manager-quito",
-      "title": "Post Security Manager, Quito",
-      "location": "Quito",
-      "deadline": "2026-07-01",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27045-Post-Security-Manager-Quito/en-GB",
+      "id": "executive-assistant-to-the-deputy-head-of-mission-bogota",
+      "title": "Executive Assistant to the Deputy Head of Mission",
+      "location": "Bogota",
+      "deadline": "2026-07-06",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5ff19f34791b/candidate/so/pm/4/pl/1/opp/27015-Executive-Assistant-to-the-Deputy-Head-of-Mission/en-GB",
       "relevance": "out_of_scope",
       "status": "closed",
-      "first_seen": "2026-06-18",
-      "notes": "Removida del listado el 2026-07-06; deadline pasado (2026-07-01).",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "id": "finance-and-estates-manager-quito",
-      "title": "Finance and Estates Manager, Quito",
-      "location": "Quito",
-      "deadline": "2026-07-01",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27043-Finance-and-Estates-Manager-Quito/en-GB",
-      "relevance": "out_of_scope",
-      "status": "closed",
-      "first_seen": "2026-06-18",
-      "notes": "Removida del listado el 2026-07-06; deadline pasado (2026-07-01).",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "id": "estates-intern-brasilia",
-      "title": "Estates Intern",
-      "location": "Brasilia",
-      "deadline": "2026-07-02",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27046-Estates-Intern/en-GB",
-      "relevance": "out_of_scope",
-      "status": "closed",
-      "first_seen": "2026-06-18",
-      "notes": "Removida del listado el 2026-07-06; deadline pasado (2026-07-02).",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "id": "inward-investment-intern-dbt-mexico-city",
-      "title": "Inward Investment Intern, DBT, Mexico City",
-      "location": "Mexico City",
-      "deadline": "2026-07-02",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-11eba05a2cc9/candidate/so/pm/4/pl/1/opp/26964-Inward-Investment-Intern-DBT-Mexico-City/en-GB",
-      "relevance": "in_scope",
-      "status": "closed",
-      "first_seen": "2026-06-11",
-      "notes": "Removida del listado el 2026-07-06; deadline pasado (2026-07-02).",
+      "first_seen": "2026-06-15",
+      "notes": "Removida del listado el 2026-07-07; deadline pasado (2026-07-06).",
       "site_key": "fco",
       "site_name": "FCO Talent (UK Foreign Office)"
     }
@@ -94,20 +38,9 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
-        {
-          "id": "executive-assistant-to-the-deputy-head-of-mission-bogota",
-          "title": "Executive Assistant to the Deputy Head of Mission",
-          "location": "Bogota",
-          "deadline": "2026-07-06",
-          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5ff19f34791b/candidate/so/pm/4/pl/1/opp/27015-Executive-Assistant-to-the-Deputy-Head-of-Mission/en-GB",
-          "relevance": "out_of_scope",
-          "status": "active",
-          "first_seen": "2026-06-15",
-          "is_new": false
-        },
         {
           "id": "international-climate-finance-officer-quito",
           "title": "International Climate Finance Officer",
@@ -172,7 +105,7 @@
           "relevance": "out_of_scope",
           "status": "active",
           "first_seen": "2026-07-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "facilities-projects-compliance-manager-brasilia-brasilia",
@@ -183,7 +116,7 @@
           "relevance": "out_of_scope",
           "status": "active",
           "first_seen": "2026-07-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "head-of-science-technology-network-colombia-british-embassy-bogota-bogota",
@@ -205,6 +138,18 @@
           "relevance": "out_of_scope",
           "status": "active",
           "first_seen": "2026-07-01",
+          "is_new": false
+        },
+        {
+          "id": "executive-assistant-to-the-deputy-head-of-mission-bogota",
+          "title": "Executive Assistant to the Deputy Head of Mission",
+          "location": "Bogota",
+          "deadline": "2026-07-06",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5ff19f34791b/candidate/so/pm/4/pl/1/opp/27015-Executive-Assistant-to-the-Deputy-Head-of-Mission/en-GB",
+          "relevance": "out_of_scope",
+          "status": "closed",
+          "first_seen": "2026-06-15",
+          "notes": "Removida del listado el 2026-07-07; deadline pasado (2026-07-06).",
           "is_new": false
         },
         {
@@ -580,7 +525,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -614,7 +559,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -660,7 +605,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -708,7 +653,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": []
     },
@@ -717,7 +662,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -748,7 +693,7 @@
           "salary": "$9,451.20 MXN bruto mensual",
           "notes": "Intendencia y limpieza de aulas, oficinas, áreas comunes y sanitarios. Horario lunes a viernes 8:00-17:00 y sábados 7:30-13:00; prestaciones de ley; Seguro Social desde el primer día; beca de francés a los seis meses. WhatsApp: 5570496631 / 5574582253.",
           "first_seen": "2026-07-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "encargado-de-mantenimiento-e-intendente",
@@ -789,7 +734,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -845,7 +790,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
@@ -858,7 +803,7 @@
           "relevance": "in_scope",
           "notes": "Offre de stage publicada en IFAL; fecha mostrada en listado: 15 de julio.",
           "first_seen": "2026-07-06",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "offre-de-stage-cooperation-audiovisuelle-de-l-ifal",
@@ -943,7 +888,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": []
     },
@@ -952,7 +897,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-07-06",
+      "last_checked": "2026-07-07",
       "failed_today": false,
       "vacancies": [
         {
