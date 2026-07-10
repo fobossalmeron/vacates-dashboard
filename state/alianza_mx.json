@@ -1,7 +1,7 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-07-07",
+  "last_checked": "2026-07-10",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -29,8 +29,23 @@
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
       "salary": "$9,451.20 MXN bruto mensual",
-      "notes": "Intendencia y limpieza de aulas, oficinas, áreas comunes y sanitarios. Horario lunes a viernes 8:00-17:00 y sábados 7:30-13:00; prestaciones de ley; Seguro Social desde el primer día; beca de francés a los seis meses. WhatsApp: 5570496631 / 5574582253.",
+      "notes": "Intendencia y limpieza de aulas, oficinas, áreas comunes y sanitarios. Horario lunes a viernes 8:00-17:00 y sábados 7:30-13:00; prestaciones de ley; Seguro Social desde el primer día; beca de francés a los seis meses.",
       "first_seen": "2026-07-06"
+    },
+    {
+      "id": "responsable-de-centre",
+      "title": "Responsable de centre",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
+      "location": "CDMX · Alianza Francesa de México",
+      "deadline": "2026-08-16",
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "chantal.durand@alianzafrancesamx.edu.mx",
+        "coordpedagogia@alianzafrancesamx.edu.mx"
+      ],
+      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico.",
+      "first_seen": "2026-07-10"
     },
     {
       "id": "encargado-de-mantenimiento-e-intendente",

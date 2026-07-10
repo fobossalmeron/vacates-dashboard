@@ -1,35 +1,15 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-07",
+  "last_checked": "2026-07-10",
   "fetch_method": "webfetch",
   "vacancies": [
-    {
-      "id": "international-climate-finance-officer-quito",
-      "title": "International Climate Finance Officer",
-      "location": "Quito",
-      "deadline": "2026-07-08",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27044-International-Climate-Finance-Officer/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-18"
-    },
-    {
-      "id": "residence-and-events-assistant-buenos-aires",
-      "title": "Residence and Events Assistant",
-      "location": "Buenos Aires",
-      "deadline": "2026-07-09",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5eaafe14f029/candidate/so/pm/4/pl/1/opp/27102-Residence-and-Events-Assistant/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-26"
-    },
     {
       "id": "action-to-combat-transnational-serious-and-organised-crime-acts-latam-programme-officer-brasilia-brasilia",
       "title": "Action to Combat Transnational Serious and Organised Crime (ACTS -LATAM) Programme Officer - Brasilia",
       "location": "Brasilia",
       "deadline": "2026-07-15",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27128-Action-to-Combat-Transnational-Serious-and-Organised-Crime-ACTS-LATAM-Programme-Officer-Brasilia/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27128-Action-to-Combat-Transnational-Serious-and-Organised-Crime-ACTS-LATAM-Programme-Officer-Brasilia/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-01"
@@ -39,7 +19,7 @@
       "title": "Climate and Political Intern - British Consulate General São Paulo",
       "location": "Sao Paulo",
       "deadline": "2026-07-15",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27130-Climate-and-Political-Intern-British-Consulate-General-S%C3%A3o-Paulo/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27130-Climate-and-Political-Intern-British-Consulate-General-S%C3%A3o-Paulo/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-01"
@@ -49,27 +29,27 @@
       "title": "Environmental, Climate and Science Intern Economic, Climate and Science Team, Bogotá",
       "location": "Bogota",
       "deadline": "2026-07-15",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27133-Environmental-Climate-and-Science-Intern-Economic-Climate-and-Science-Team-Bogot%C3%A1/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27133-Environmental-Climate-and-Science-Intern-Economic-Climate-and-Science-Team-Bogot%C3%A1/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-01"
-    },
-    {
-      "id": "communications-officer-buenos-aires",
-      "title": "Communications Officer",
-      "location": "Buenos Aires",
-      "deadline": "2026-07-16",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-35ce076a2640/candidate/so/pm/4/pl/1/opp/27129-Communications-Officer/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-06"
     },
     {
       "id": "facilities-projects-compliance-manager-brasilia-brasilia",
       "title": "Facilities, Projects & Compliance Manager, Brasília",
       "location": "Brasilia",
       "deadline": "2026-07-16",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-35ce076a2640/candidate/so/pm/4/pl/1/opp/27142-Facilities-Projects-Compliance-Manager-Bras%C3%ADlia/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27142-Facilities-Projects-Compliance-Manager-Bras%C3%ADlia/en-GB",
+      "relevance": "out_of_scope",
+      "status": "active",
+      "first_seen": "2026-07-06"
+    },
+    {
+      "id": "communications-officer-buenos-aires",
+      "title": "Communications Officer",
+      "location": "Buenos Aires",
+      "deadline": "2026-07-16",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27129-Communications-Officer/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-06"
@@ -79,7 +59,7 @@
       "title": "Head of Science & Technology Network Colombia, British Embassy Bogota",
       "location": "Bogota",
       "deadline": "2026-07-19",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5eaafe14f029/candidate/so/pm/4/pl/1/opp/27108-Head-of-Science-Technology-Network-Colombia-British-Embassy-Bogota/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27108-Head-of-Science-Technology-Network-Colombia-British-Embassy-Bogota/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-06-26"
@@ -89,10 +69,42 @@
       "title": "Political Officer, Guatemala",
       "location": "Guatemala City",
       "deadline": "2026-07-21",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-f56d4927df08/candidate/so/pm/4/pl/1/opp/27119-Political-Officer-Guatemala/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27119-Political-Officer-Guatemala/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-01"
+    },
+    {
+      "id": "international-climate-programme-officer-bogota",
+      "title": "International Climate Programme Officer",
+      "location": "Bogota",
+      "deadline": "2026-07-26",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27173-International-Climate-Programme-Officer/en-GB",
+      "relevance": "out_of_scope",
+      "status": "active",
+      "first_seen": "2026-07-10"
+    },
+    {
+      "id": "international-climate-finance-officer-quito",
+      "title": "International Climate Finance Officer",
+      "location": "Quito",
+      "deadline": "2026-07-08",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27044-International-Climate-Finance-Officer/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-18",
+      "notes": "Removida del listado el 2026-07-10; deadline pasado (2026-07-08)."
+    },
+    {
+      "id": "residence-and-events-assistant-buenos-aires",
+      "title": "Residence and Events Assistant",
+      "location": "Buenos Aires",
+      "deadline": "2026-07-09",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5eaafe14f029/candidate/so/pm/4/pl/1/opp/27102-Residence-and-Events-Assistant/en-GB",
+      "relevance": "out_of_scope",
+      "status": "closed",
+      "first_seen": "2026-06-26",
+      "notes": "Removida del listado el 2026-07-10; deadline pasado (2026-07-09)."
     },
     {
       "id": "executive-assistant-to-the-deputy-head-of-mission-bogota",

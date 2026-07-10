@@ -1,19 +1,19 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-07-07",
+  "last_checked": "2026-07-10",
   "fetch_method": "playwright",
   "vacancies": [
     {
       "id": "disenadora-de-exposiciones",
       "title": "Diseñador(a) de Exposiciones",
-      "display_title": "Exhibition Designer",
+      "display_title": null,
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "location": "CDMX · Museo Franz Mayer",
       "deadline": null,
-      "status": "closed",
+      "status": "active",
       "relevance": "in_scope",
-      "notes": "Removida del listado el 2026-06-22.",
+      "notes": "Reapareció en el listado el 2026-07-10. Puesto presencial de tiempo completo; contrato fijo; prestaciones superiores a la ley.",
       "first_seen": "2026-06-15"
     },
     {

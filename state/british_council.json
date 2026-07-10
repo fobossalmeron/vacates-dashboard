@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-07-07",
+  "last_checked": "2026-07-10",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -9,11 +9,33 @@
       "title": "Business Performance Support Manager",
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362945",
       "location": "Mexico + 1 more · Hybrid",
-      "deadline": null,
-      "status": "closed",
+      "deadline": "2026-07-22",
+      "status": "active",
       "relevance": "in_scope",
-      "notes": "Removida del listado el 2026-06-11.",
+      "notes": "Reapareció en el listado el 2026-07-10. Cierre indicado: 23:59 UK / 16:59 Mexico City del 22 de julio de 2026.",
       "first_seen": "2026-06-03"
+    },
+    {
+      "id": "customer-service-representative-english-online",
+      "title": "Customer Service Representative, English Online",
+      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891363021",
+      "location": "Mexico · Hybrid",
+      "deadline": "2026-07-21",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México.",
+      "first_seen": "2026-07-10"
+    },
+    {
+      "id": "delivery-network-assistant-teaching",
+      "title": "Delivery Network Assistant (Teaching)",
+      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
+      "location": "Mexico · Hybrid",
+      "deadline": "2026-07-21",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México.",
+      "first_seen": "2026-07-10"
     },
     {
       "id": "teacher-of-english",
