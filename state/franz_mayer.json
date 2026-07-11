@@ -1,7 +1,7 @@
 {
   "site": "franz_mayer",
   "url": "https://franzmayer.org.mx/vacantes",
-  "last_checked": "2026-07-10",
+  "last_checked": "2026-07-11",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -11,9 +11,9 @@
       "apply_url": "https://franzmayer.org.mx/vacantes",
       "location": "CDMX · Museo Franz Mayer",
       "deadline": null,
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Reapareció en el listado el 2026-07-10. Puesto presencial de tiempo completo; contrato fijo; prestaciones superiores a la ley.",
+      "notes": "Removida del listado el 2026-07-11.",
       "first_seen": "2026-06-15"
     },
     {

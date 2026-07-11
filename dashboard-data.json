@@ -1,17 +1,10 @@
 {
-  "last_run": "2026-07-10",
-  "is_baseline": false,
-  "scope": "CDMX / remoto / duda; fuera de scope si otra ciudad explícita.",
-  "summary": {
-    "sites_checked": 10,
-    "sites_with_error": 0,
-    "relevant_active": 12,
-    "out_of_scope": 35,
-    "closed": 48,
-    "new_today": 5,
-    "removed_today": 2
-  },
+  "last_run": "2026-07-11",
   "warnings": [
+    {
+      "site": "british_council",
+      "message": "La navegación fue bloqueada por la política del navegador; se conservó el último snapshot bueno del 2026-07-10."
+    },
     {
       "site": "fco",
       "message": "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades."
@@ -21,111 +14,22 @@
       "message": "El listado muestra “Stagiaire en coopération éducative” con fecha 15 de julio, pero su detalle conserva una fecha límite antigua; se mantuvo activa porque sigue visible en el listado."
     }
   ],
-  "new_today": [
-    {
-      "id": "international-climate-programme-officer-bogota",
-      "title": "International Climate Programme Officer",
-      "location": "Bogota",
-      "deadline": "2026-07-26",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27173-International-Climate-Programme-Officer/en-GB",
-      "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-10",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "id": "customer-service-representative-english-online",
-      "title": "Customer Service Representative, English Online",
-      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891363021",
-      "location": "Mexico · Hybrid",
-      "deadline": "2026-07-21",
-      "status": "active",
-      "relevance": "in_scope",
-      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México.",
-      "first_seen": "2026-07-10",
-      "site_key": "british_council",
-      "site_name": "British Council"
-    },
-    {
-      "id": "delivery-network-assistant-teaching",
-      "title": "Delivery Network Assistant (Teaching)",
-      "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
-      "location": "Mexico · Hybrid",
-      "deadline": "2026-07-21",
-      "status": "active",
-      "relevance": "in_scope",
-      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México.",
-      "first_seen": "2026-07-10",
-      "site_key": "british_council",
-      "site_name": "British Council"
-    },
-    {
-      "id": "responsable-de-centre",
-      "title": "Responsable de centre",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-      "location": "CDMX · Alianza Francesa de México",
-      "deadline": "2026-08-16",
-      "status": "active",
-      "relevance": "in_scope",
-      "contact_emails": [
-        "chantal.durand@alianzafrancesamx.edu.mx",
-        "coordpedagogia@alianzafrancesamx.edu.mx"
-      ],
-      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico.",
-      "first_seen": "2026-07-10",
-      "site_key": "alianza_mx",
-      "site_name": "Alianza Francesa de México (.edu.mx)"
-    },
-    {
-      "id": "stagiaire-en-production-evenementielle-et-cooperation-culturelle",
-      "title": "Stagiaire en production événementielle et coopération culturelle",
-      "apply_url": "https://ifal.mx/ofertas/stagiaire-en-production-evenementielle-et-cooperation-culturelle",
-      "location": "CDMX · IFAL / Ambassade de France",
-      "deadline": "2026-07-15",
-      "status": "active",
-      "relevance": "in_scope",
-      "notes": "Stage en production événementielle et coopération culturelle; postular antes del 15 de julio. Erratum: inicio correcto a partir del 15 de agosto de 2026.",
-      "first_seen": "2026-07-10",
-      "site_key": "ifal",
-      "site_name": "IFAL"
-    }
-  ],
-  "closed_today": [
-    {
-      "id": "international-climate-finance-officer-quito",
-      "title": "International Climate Finance Officer",
-      "location": "Quito",
-      "deadline": "2026-07-08",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-d2e7bd5d0ad6/candidate/so/pm/4/pl/1/opp/27044-International-Climate-Finance-Officer/en-GB",
-      "relevance": "out_of_scope",
-      "status": "closed",
-      "first_seen": "2026-06-18",
-      "notes": "Removida del listado el 2026-07-10; deadline pasado (2026-07-08).",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    },
-    {
-      "id": "residence-and-events-assistant-buenos-aires",
-      "title": "Residence and Events Assistant",
-      "location": "Buenos Aires",
-      "deadline": "2026-07-09",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-5eaafe14f029/candidate/so/pm/4/pl/1/opp/27102-Residence-and-Events-Assistant/en-GB",
-      "relevance": "out_of_scope",
-      "status": "closed",
-      "first_seen": "2026-06-26",
-      "notes": "Removida del listado el 2026-07-10; deadline pasado (2026-07-09).",
-      "site_key": "fco",
-      "site_name": "FCO Talent (UK Foreign Office)"
-    }
-  ],
+  "summary": {
+    "sites_checked": 10,
+    "sites_with_error": 1,
+    "relevant_active": 11,
+    "out_of_scope": 35,
+    "closed": 49,
+    "new_today": 0,
+    "removed_today": 1
+  },
   "sites": [
     {
       "key": "fco",
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -214,7 +118,7 @@
           "relevance": "out_of_scope",
           "status": "active",
           "first_seen": "2026-07-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "international-climate-finance-officer-quito",
@@ -626,7 +530,7 @@
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
       "last_checked": "2026-07-10",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -650,7 +554,7 @@
           "relevance": "in_scope",
           "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México.",
           "first_seen": "2026-07-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "delivery-network-assistant-teaching",
@@ -662,7 +566,7 @@
           "relevance": "in_scope",
           "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México.",
           "first_seen": "2026-07-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "teacher-of-english",
@@ -683,7 +587,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -729,7 +633,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -739,9 +643,9 @@
           "apply_url": "https://franzmayer.org.mx/vacantes",
           "location": "CDMX · Museo Franz Mayer",
           "deadline": null,
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Reapareció en el listado el 2026-07-10. Puesto presencial de tiempo completo; contrato fijo; prestaciones superiores a la ley.",
+          "notes": "Removida del listado el 2026-07-11.",
           "first_seen": "2026-06-15",
           "is_new": false
         },
@@ -777,7 +681,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": []
     },
@@ -786,7 +690,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -833,7 +737,7 @@
           ],
           "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico.",
           "first_seen": "2026-07-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "encargado-de-mantenimiento-e-intendente",
@@ -874,7 +778,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -930,7 +834,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
@@ -943,7 +847,7 @@
           "relevance": "in_scope",
           "notes": "Stage en production événementielle et coopération culturelle; postular antes del 15 de julio. Erratum: inicio correcto a partir del 15 de agosto de 2026.",
           "first_seen": "2026-07-10",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "stagiaire-en-cooperation-educative",
@@ -1040,7 +944,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": []
     },
@@ -1049,7 +953,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-07-10",
+      "last_checked": "2026-07-11",
       "failed_today": false,
       "vacancies": [
         {
