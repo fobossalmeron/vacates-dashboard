@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-07-11",
+  "last_run": "2026-07-12",
   "warnings": [
     {
-      "site": "british_council",
-      "message": "La navegación fue bloqueada por la política del navegador; se conservó el último snapshot bueno del 2026-07-10."
+      "site": "exteriores",
+      "message": "La página directa devolvió 403 en WebFetch y agotó la navegación en el navegador; se conservó el último snapshot bueno del 2026-07-11."
     },
     {
       "site": "fco",
@@ -21,7 +21,7 @@
     "out_of_scope": 35,
     "closed": 49,
     "new_today": 0,
-    "removed_today": 1
+    "removed_today": 0
   },
   "sites": [
     {
@@ -29,7 +29,7 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {
@@ -529,8 +529,8 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-07-10",
-      "failed_today": true,
+      "last_checked": "2026-07-12",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -588,7 +588,7 @@
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
       "last_checked": "2026-07-11",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
@@ -633,7 +633,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {
@@ -681,7 +681,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": []
     },
@@ -690,7 +690,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {
@@ -778,7 +778,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {
@@ -834,7 +834,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {
@@ -944,7 +944,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": []
     },
@@ -953,7 +953,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-07-11",
+      "last_checked": "2026-07-12",
       "failed_today": false,
       "vacancies": [
         {

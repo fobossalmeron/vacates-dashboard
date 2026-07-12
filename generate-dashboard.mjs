@@ -20,12 +20,12 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "british_council", message: "La navegación fue bloqueada por la política del navegador; se conservó el último snapshot bueno del 2026-07-10." },
+  { site: "exteriores", message: "La página directa devolvió 403 en WebFetch y agotó la navegación en el navegador; se conservó el último snapshot bueno del 2026-07-11." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
   { site: "ifal", message: "El listado muestra “Stagiaire en coopération éducative” con fecha 15 de julio, pero su detalle conserva una fecha límite antigua; se mantuvo activa porque sigue visible en el listado." },
 ];
 
-const failed = new Set(["british_council"]);
+const failed = new Set(["exteriores"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
