@@ -20,8 +20,7 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "exteriores", message: "WebFetch devolvió 403; la página se validó correctamente con navegador y el snapshot quedó actualizado al 2026-07-13." },
-  { site: "alianza_mx", message: "WebFetch agotó el tiempo; la página se validó correctamente con navegador y el snapshot quedó actualizado al 2026-07-13." },
+  { site: "monitor", message: "El canal WebFetch no tuvo sesión válida; los seis sitios configurados con ese método se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-14." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
   { site: "ifal", message: "El listado muestra “Stagiaire en coopération éducative” con fecha 15 de julio, pero su detalle conserva una fecha límite antigua; se mantuvo activa porque sigue visible en el listado." },
 ];
