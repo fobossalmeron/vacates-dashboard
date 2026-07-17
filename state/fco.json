@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-14",
+  "last_checked": "2026-07-17",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -11,8 +11,9 @@
       "deadline": "2026-07-15",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27128-Action-to-Combat-Transnational-Serious-and-Organised-Crime-ACTS-LATAM-Programme-Officer-Brasilia/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-01"
+      "status": "closed",
+      "first_seen": "2026-07-01",
+      "notes": "Removida del listado el 2026-07-17; deadline pasado (2026-07-15)."
     },
     {
       "id": "climate-and-political-intern-british-consulate-general-sao-paulo-sao-paulo",
@@ -21,8 +22,9 @@
       "deadline": "2026-07-15",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27130-Climate-and-Political-Intern-British-Consulate-General-S%C3%A3o-Paulo/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-01"
+      "status": "closed",
+      "first_seen": "2026-07-01",
+      "notes": "Removida del listado el 2026-07-17; deadline pasado (2026-07-15)."
     },
     {
       "id": "environmental-climate-and-science-intern-economic-climate-and-science-team-bogota-bogota",
@@ -31,18 +33,20 @@
       "deadline": "2026-07-15",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27133-Environmental-Climate-and-Science-Intern-Economic-Climate-and-Science-Team-Bogot%C3%A1/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-01"
+      "status": "closed",
+      "first_seen": "2026-07-01",
+      "notes": "Removida del listado el 2026-07-17; deadline pasado (2026-07-15)."
     },
     {
       "id": "facilities-projects-compliance-manager-brasilia-brasilia",
       "title": "Facilities, Projects & Compliance Manager, Brasília",
       "location": "Brasilia",
-      "deadline": "2026-07-16",
+      "deadline": "2026-07-20",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27142-Facilities-Projects-Compliance-Manager-Bras%C3%ADlia/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
-      "first_seen": "2026-07-06"
+      "first_seen": "2026-07-06",
+      "notes": "La fecha de cierre se extendió del 16 al 20 de julio de 2026."
     },
     {
       "id": "communications-officer-buenos-aires",
@@ -51,8 +55,9 @@
       "deadline": "2026-07-16",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27129-Communications-Officer/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-06"
+      "status": "closed",
+      "first_seen": "2026-07-06",
+      "notes": "Removida del listado el 2026-07-17; deadline pasado (2026-07-16)."
     },
     {
       "id": "head-of-science-technology-network-colombia-british-embassy-bogota-bogota",
@@ -83,6 +88,27 @@
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-10"
+    },
+    {
+      "id": "honorary-consul-commercial-monterrey",
+      "title": "Honorary Consul, Commercial - Monterrey",
+      "location": "Monterrey",
+      "deadline": "2026-07-29",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-370dac921255/candidate/so/pm/4/pl/1/opp/27201-Honorary-Consul-Commercial-Monterrey/en-GB",
+      "relevance": "out_of_scope",
+      "status": "active",
+      "first_seen": "2026-07-17"
+    },
+    {
+      "id": "deputy-head-of-hr-brasilia-27206",
+      "title": "Deputy Head of HR, Brasilia",
+      "location": "Brasilia",
+      "deadline": "2026-08-02",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-370dac921255/candidate/so/pm/4/pl/1/opp/27206-Deputy-Head-of-HR-Brasilia/en-GB",
+      "relevance": "out_of_scope",
+      "status": "active",
+      "first_seen": "2026-07-17",
+      "notes": "Nueva publicación distinta de la vacante homónima cerrada en junio (opp 27206)."
     },
     {
       "id": "international-climate-finance-officer-quito",

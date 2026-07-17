@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-07-14",
+  "last_checked": "2026-07-17",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -10,9 +10,9 @@
       "apply_url": "https://ifal.mx/ofertas/stagiaire-en-production-evenementielle-et-cooperation-culturelle",
       "location": "CDMX · IFAL / Ambassade de France",
       "deadline": "2026-07-15",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Stage en production événementielle et coopération culturelle; postular antes del 15 de julio. Erratum: inicio correcto a partir del 15 de agosto de 2026.",
+      "notes": "Deadline pasado (2026-07-15); marcada cerrada el 2026-07-17 aunque sigue visible en el listado. Erratum: inicio correcto a partir del 15 de agosto de 2026.",
       "first_seen": "2026-07-10"
     },
     {
@@ -21,9 +21,9 @@
       "apply_url": "https://ifal.mx/ofertas/stagiaire-en-cooperation-educative",
       "location": "CDMX · IFAL / Ambassade de France",
       "deadline": "2026-07-15",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Visible en el listado IFAL con fecha 15 de julio; el detalle conserva texto antiguo con fecha límite de enero, por eso se mantiene activa con warning.",
+      "notes": "La fecha visible del listado (2026-07-15) ya pasó; marcada cerrada el 2026-07-17. El detalle conserva texto antiguo con fecha límite de enero.",
       "first_seen": "2026-07-06"
     },
     {
