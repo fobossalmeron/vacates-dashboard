@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-17",
+  "last_checked": "2026-07-20",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -66,8 +66,9 @@
       "deadline": "2026-07-19",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27108-Head-of-Science-Technology-Network-Colombia-British-Embassy-Bogota/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-06-26"
+      "status": "closed",
+      "first_seen": "2026-06-26",
+      "notes": "Removida del listado el 2026-07-20; deadline pasado (2026-07-19)."
     },
     {
       "id": "political-officer-guatemala-guatemala-city",

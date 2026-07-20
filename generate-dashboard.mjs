@@ -20,9 +20,9 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "monitor", message: "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (timeout) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-17." },
+  { site: "monitor", message: "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (timeout) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-20." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
-  { site: "ifal", message: "Dos anuncios siguen visibles con fecha 15 de julio; se marcaron cerrados por deadline pasado. El detalle de “Stagiaire en coopération éducative” conserva texto antiguo de enero." },
+  { site: "ifal", message: "Dos anuncios siguen visibles con fecha 15 de julio; permanecen cerrados por deadline pasado. El detalle de “Stagiaire en coopération éducative” conserva texto antiguo de enero." },
 ];
 
 const failed = new Set();
