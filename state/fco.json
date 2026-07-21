@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-20",
+  "last_checked": "2026-07-21",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -44,9 +44,9 @@
       "deadline": "2026-07-20",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27142-Facilities-Projects-Compliance-Manager-Bras%C3%ADlia/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
+      "status": "closed",
       "first_seen": "2026-07-06",
-      "notes": "La fecha de cierre se extendió del 16 al 20 de julio de 2026."
+      "notes": "Removida del listado el 2026-07-21; deadline pasado (2026-07-20). La fecha de cierre se había extendido del 16 al 20 de julio de 2026."
     },
     {
       "id": "communications-officer-buenos-aires",

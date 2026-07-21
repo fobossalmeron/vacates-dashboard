@@ -1,7 +1,7 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-07-20",
+  "last_checked": "2026-07-21",
   "fetch_method": "webfetch",
   "vacancies": [
     {
