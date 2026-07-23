@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-07-21",
+  "last_checked": "2026-07-23",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -10,9 +10,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362945",
       "location": "Mexico + 1 more · Hybrid",
       "deadline": "2026-07-22",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Reapareció en el listado el 2026-07-10. Cierre indicado: 23:59 UK / 16:59 Mexico City del 22 de julio de 2026.",
+      "notes": "Reapareció en el listado el 2026-07-10. Deadline pasado (2026-07-22); sigue visible en el listado al 2026-07-23.",
       "first_seen": "2026-06-03"
     },
     {
@@ -21,9 +21,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891363021",
       "location": "Mexico · Hybrid",
       "deadline": "2026-07-21",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México.",
+      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
       "first_seen": "2026-07-10"
     },
     {
@@ -32,9 +32,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
       "location": "Mexico · Hybrid",
       "deadline": "2026-07-21",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México.",
+      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
       "first_seen": "2026-07-10"
     },
     {

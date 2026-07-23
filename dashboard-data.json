@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-07-21",
+  "last_run": "2026-07-23",
   "warnings": [
     {
       "site": "monitor",
-      "message": "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (timeout) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-21."
+      "message": "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (timeout) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-23."
     },
     {
       "site": "fco",
@@ -17,11 +17,11 @@
   "summary": {
     "sites_checked": 10,
     "sites_with_error": 0,
-    "relevant_active": 9,
+    "relevant_active": 6,
     "out_of_scope": 37,
-    "closed": 57,
+    "closed": 61,
     "new_today": 0,
-    "removed_today": 1
+    "removed_today": 4
   },
   "sites": [
     {
@@ -29,7 +29,7 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -111,8 +111,9 @@
           "deadline": "2026-07-21",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27119-Political-Officer-Guatemala/en-GB",
           "relevance": "out_of_scope",
-          "status": "active",
+          "status": "closed",
           "first_seen": "2026-07-01",
+          "notes": "Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
           "is_new": false
         },
         {
@@ -558,7 +559,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -567,9 +568,9 @@
           "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362945",
           "location": "Mexico + 1 more · Hybrid",
           "deadline": "2026-07-22",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Reapareció en el listado el 2026-07-10. Cierre indicado: 23:59 UK / 16:59 Mexico City del 22 de julio de 2026.",
+          "notes": "Reapareció en el listado el 2026-07-10. Deadline pasado (2026-07-22); sigue visible en el listado al 2026-07-23.",
           "first_seen": "2026-06-03",
           "is_new": false
         },
@@ -579,9 +580,9 @@
           "apply_url": "https://careers.britishcouncil.org/careers/job/563705891363021",
           "location": "Mexico · Hybrid",
           "deadline": "2026-07-21",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México.",
+          "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
           "first_seen": "2026-07-10",
           "is_new": false
         },
@@ -591,9 +592,9 @@
           "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
           "location": "Mexico · Hybrid",
           "deadline": "2026-07-21",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México.",
+          "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
           "first_seen": "2026-07-10",
           "is_new": false
         },
@@ -616,7 +617,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -662,7 +663,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -710,7 +711,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": []
     },
@@ -719,7 +720,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -807,7 +808,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -863,7 +864,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {
@@ -973,7 +974,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": []
     },
@@ -982,7 +983,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-07-21",
+      "last_checked": "2026-07-23",
       "failed_today": false,
       "vacancies": [
         {

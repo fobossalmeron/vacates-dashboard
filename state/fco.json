@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-21",
+  "last_checked": "2026-07-23",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -77,8 +77,9 @@
       "deadline": "2026-07-21",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27119-Political-Officer-Guatemala/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-01"
+      "status": "closed",
+      "first_seen": "2026-07-01",
+      "notes": "Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23."
     },
     {
       "id": "international-climate-programme-officer-bogota",
