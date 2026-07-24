@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-23",
+  "last_checked": "2026-07-24",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -79,7 +79,7 @@
       "relevance": "out_of_scope",
       "status": "closed",
       "first_seen": "2026-07-01",
-      "notes": "Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23."
+      "notes": "Deadline pasado (2026-07-21); removida del listado el 2026-07-24."
     },
     {
       "id": "international-climate-programme-officer-bogota",
@@ -111,6 +111,16 @@
       "status": "active",
       "first_seen": "2026-07-17",
       "notes": "Nueva publicación distinta de la vacante homónima cerrada en junio (opp 27206)."
+    },
+    {
+      "id": "environment-and-economic-intern-british-embassy-quito",
+      "title": "Environment and Economic Intern - British Embassy Quito",
+      "location": "Quito",
+      "deadline": "2026-08-05",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-444826821982/candidate/so/pm/4/pl/1/opp/27235-Environment-and-Economic-Intern-British-Embassy-Quito/en-GB",
+      "relevance": "out_of_scope",
+      "status": "active",
+      "first_seen": "2026-07-24"
     },
     {
       "id": "international-climate-finance-officer-quito",

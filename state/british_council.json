@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-07-23",
+  "last_checked": "2026-07-24",
   "fetch_method": "playwright",
   "vacancies": [
     {
@@ -12,7 +12,7 @@
       "deadline": "2026-07-22",
       "status": "closed",
       "relevance": "in_scope",
-      "notes": "Reapareció en el listado el 2026-07-10. Deadline pasado (2026-07-22); sigue visible en el listado al 2026-07-23.",
+      "notes": "Reapareció en el listado el 2026-07-10. Deadline pasado (2026-07-22); removida del listado el 2026-07-24.",
       "first_seen": "2026-06-03"
     },
     {
@@ -23,7 +23,7 @@
       "deadline": "2026-07-21",
       "status": "closed",
       "relevance": "in_scope",
-      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
+      "notes": "Contrato fijo 2 años; salario 20,664 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); removida del listado el 2026-07-24.",
       "first_seen": "2026-07-10"
     },
     {
@@ -34,7 +34,7 @@
       "deadline": "2026-07-21",
       "status": "closed",
       "relevance": "in_scope",
-      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); sigue visible en el listado al 2026-07-23.",
+      "notes": "Puesto permanente; salario 14,067 MXN; requiere derecho legal para trabajar en México. Deadline pasado (2026-07-21); removida del listado el 2026-07-24.",
       "first_seen": "2026-07-10"
     },
     {
