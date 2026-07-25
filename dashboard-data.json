@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-07-24",
+  "last_run": "2026-07-25",
   "warnings": [
     {
       "site": "monitor",
-      "message": "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (502) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-24."
+      "message": "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (502) y FCO (URL no procesable); los tres se validaron correctamente con navegador y sus snapshots quedaron actualizados al 2026-07-25."
     },
     {
       "site": "fco",
@@ -20,8 +20,8 @@
     "relevant_active": 6,
     "out_of_scope": 38,
     "closed": 61,
-    "new_today": 1,
-    "removed_today": 4
+    "new_today": 0,
+    "removed_today": 0
   },
   "sites": [
     {
@@ -29,7 +29,7 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -159,7 +159,7 @@
           "relevance": "out_of_scope",
           "status": "active",
           "first_seen": "2026-07-24",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "international-climate-finance-officer-quito",
@@ -570,7 +570,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -628,7 +628,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -663,7 +663,7 @@
           "deadline": null,
           "status": "active",
           "relevance": "in_scope",
-          "notes": "Publicado 2026-03-30; relación definitiva de personas admitidas y excluidas publicada el 2026-06-17; relación de aspirantes que superaron la primera prueba publicada el 2026-07-13; relación de aspirantes que superaron la segunda prueba publicada el 2026-07-17.",
+          "notes": "Publicado 2026-03-30; relación definitiva de personas admitidas y excluidas publicada el 2026-06-17; relación de aspirantes que superaron la primera prueba publicada el 2026-07-13; relación de aspirantes que superaron la segunda prueba publicada el 2026-07-17; lista de aprobados de las fases de oposición y concurso publicada el 2026-07-24.",
           "first_seen": "2026-05-01",
           "is_new": false
         }
@@ -674,7 +674,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -722,7 +722,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": []
     },
@@ -731,7 +731,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -819,7 +819,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -875,7 +875,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
@@ -985,7 +985,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": []
     },
@@ -994,7 +994,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-07-24",
+      "last_checked": "2026-07-25",
       "failed_today": false,
       "vacancies": [
         {
