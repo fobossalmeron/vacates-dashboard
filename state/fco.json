@@ -1,7 +1,7 @@
 {
   "site": "fco",
   "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
-  "last_checked": "2026-07-25",
+  "last_checked": "2026-07-27",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -88,15 +88,16 @@
       "deadline": "2026-07-26",
       "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-31b9cb717933/candidate/so/pm/4/pl/1/opp/27173-International-Climate-Programme-Officer/en-GB",
       "relevance": "out_of_scope",
-      "status": "active",
-      "first_seen": "2026-07-10"
+      "status": "closed",
+      "first_seen": "2026-07-10",
+      "notes": "Deadline pasado (2026-07-26); removida del listado el 2026-07-27."
     },
     {
       "id": "honorary-consul-commercial-monterrey",
       "title": "Honorary Consul, Commercial - Monterrey",
       "location": "Monterrey",
       "deadline": "2026-07-29",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-370dac921255/candidate/so/pm/4/pl/1/opp/27201-Honorary-Consul-Commercial-Monterrey/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27201-Honorary-Consul-Commercial-Monterrey/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-17"
@@ -106,7 +107,7 @@
       "title": "Deputy Head of HR, Brasilia",
       "location": "Brasilia",
       "deadline": "2026-08-02",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-370dac921255/candidate/so/pm/4/pl/1/opp/27206-Deputy-Head-of-HR-Brasilia/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27206-Deputy-Head-of-HR-Brasilia/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-17",
@@ -117,10 +118,22 @@
       "title": "Environment and Economic Intern - British Embassy Quito",
       "location": "Quito",
       "deadline": "2026-08-05",
-      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-444826821982/candidate/so/pm/4/pl/1/opp/27235-Environment-and-Economic-Intern-British-Embassy-Quito/en-GB",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27235-Environment-and-Economic-Intern-British-Embassy-Quito/en-GB",
       "relevance": "out_of_scope",
       "status": "active",
       "first_seen": "2026-07-24"
+    },
+    {
+      "id": "pro-consul-british-embassy-mexico-city",
+      "title": "Pro-Consul - British Embassy Mexico City",
+      "location": "Mexico City",
+      "deadline": "2026-08-10",
+      "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27252-Pro-Consul-British-Embassy-Mexico-City/en-GB",
+      "relevance": "in_scope",
+      "status": "active",
+      "first_seen": "2026-07-27",
+      "salary": "MXN $23,001 mensual",
+      "notes": "Puesto presencial, permanente y de tiempo completo (38h/semana); inicio previsto el 2026-09-21. Requiere inglés y español fluidos, experiencia de atención al público y derecho vigente para vivir y trabajar en México."
     },
     {
       "id": "international-climate-finance-officer-quito",
