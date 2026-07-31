@@ -1,7 +1,7 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-07-28",
+  "last_checked": "2026-07-31",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -12,7 +12,7 @@
       "deadline": null,
       "status": "active",
       "relevance": "in_scope",
-      "notes": "Bases publicadas el 2026-06-04; lista provisional publicada el 2026-06-22; lista definitiva de admitidos y excluidos publicada el 2026-07-08.",
+      "notes": "Bases publicadas el 2026-06-04; lista provisional publicada el 2026-06-22; lista definitiva de admitidos y excluidos publicada el 2026-07-08; resultados del primer examen publicados el 2026-07-29.",
       "first_seen": "2026-06-11"
     },
     {
