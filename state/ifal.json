@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-08-04",
+  "last_checked": "2026-08-05",
   "fetch_method": "playwright",
   "vacancies": [
     {

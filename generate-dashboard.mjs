@@ -20,11 +20,11 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "monitor", message: `WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (502) y FCO (URL no procesable). Exteriores y Alianza se validaron con navegador; FCO mostró una verificación humana, por lo que se preservó su último snapshot bueno del 2026-07-28.` },
+  { site: "monitor", message: `British Council, Embajada de España y Museo Franz Mayer no pudieron verificarse por restricciones del navegador; se preservaron sus snapshots buenos del 2026-08-04.` },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["fco"]);
+const failed = new Set(["british_council", "exteriores", "franz_mayer"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

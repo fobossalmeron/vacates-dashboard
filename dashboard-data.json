@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-08-04",
+  "last_run": "2026-08-05",
   "warnings": [
     {
       "site": "monitor",
-      "message": "WebFetch falló para Exteriores (403), Alianza Francesa .edu.mx (502) y FCO (URL no procesable). Exteriores y Alianza se validaron con navegador; FCO no pudo verificarse y se preservó su último snapshot bueno del 2026-07-28."
+      "message": "British Council, Embajada de España y Museo Franz Mayer no pudieron verificarse por restricciones del navegador; se preservaron sus snapshots buenos del 2026-08-04."
     },
     {
       "site": "fco",
@@ -12,12 +12,12 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 1,
+    "sites_with_error": 3,
     "relevant_active": 7,
-    "out_of_scope": 38,
-    "closed": 62,
-    "new_today": 0,
-    "removed_today": 0
+    "out_of_scope": 42,
+    "closed": 65,
+    "new_today": 4,
+    "removed_today": 3
   },
   "sites": [
     {
@@ -25,8 +25,8 @@
       "name": "FCO Talent (UK Foreign Office)",
       "url": "https://fco.tal.net/vx/appcentre-ext/candidate/jobboard/vacancy/1/adv/?f_Item_Opportunity_15695_lk=1371",
       "method": "webfetch",
-      "last_checked": "2026-07-28",
-      "failed_today": true,
+      "last_checked": "2026-08-05",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "action-to-combat-transnational-serious-and-organised-crime-acts-latam-programme-officer-brasilia-brasilia",
@@ -131,8 +131,9 @@
           "deadline": "2026-07-29",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27201-Honorary-Consul-Commercial-Monterrey/en-GB",
           "relevance": "out_of_scope",
-          "status": "active",
+          "status": "closed",
           "first_seen": "2026-07-17",
+          "notes": "Removida del listado el 2026-08-05; deadline pasado (2026-07-29).",
           "is_new": false
         },
         {
@@ -142,9 +143,9 @@
           "deadline": "2026-08-02",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27206-Deputy-Head-of-HR-Brasilia/en-GB",
           "relevance": "out_of_scope",
-          "status": "active",
+          "status": "closed",
           "first_seen": "2026-07-17",
-          "notes": "Nueva publicación distinta de la vacante homónima cerrada en junio (opp 27206).",
+          "notes": "Nueva publicación distinta de la vacante homónima cerrada en junio (opp 27206). Removida del listado el 2026-08-05; deadline pasado (2026-08-02).",
           "is_new": false
         },
         {
@@ -154,8 +155,9 @@
           "deadline": "2026-08-05",
           "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-c2a86305df9b/candidate/so/pm/4/pl/1/opp/27235-Environment-and-Economic-Intern-British-Embassy-Quito/en-GB",
           "relevance": "out_of_scope",
-          "status": "active",
+          "status": "closed",
           "first_seen": "2026-07-24",
+          "notes": "Removida del listado el 2026-08-05; deadline alcanzado (2026-08-05).",
           "is_new": false
         },
         {
@@ -170,6 +172,50 @@
           "salary": "MXN $23,001 mensual",
           "notes": "Puesto presencial, permanente y de tiempo completo (38h/semana); inicio previsto el 2026-09-21. Requiere inglés y español fluidos, experiencia de atención al público y derecho vigente para vivir y trabajar en México.",
           "is_new": false
+        },
+        {
+          "id": "brazil-head-of-forests-international-climate-finance-desnz-brazil",
+          "title": "Brazil Head of Forests - International Climate Finance, DESNZ, Brazil",
+          "location": "Brasilia, Rio De Janeiro, Sao Paulo",
+          "deadline": "2026-08-16",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-b50b4c8ca6a9/candidate/so/pm/4/pl/1/opp/27263-Brazil-Head-of-Forests-International-Climate-Finance-DESNZ-Brazil/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-08-05",
+          "is_new": true
+        },
+        {
+          "id": "energy-environment-and-critical-minerals-intern-british-embassy-santiago",
+          "title": "Energy, Environment and Critical Minerals Intern - British Embassy Santiago",
+          "location": "Santiago",
+          "deadline": "2026-08-16",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-b50b4c8ca6a9/candidate/so/pm/4/pl/1/opp/27272-Energy-Environment-and-Critical-Minerals-Intern-British-Embassy-Santiago/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-08-05",
+          "is_new": true
+        },
+        {
+          "id": "chevening-and-political-officer-bogota",
+          "title": "Chevening and Political Officer, Bogota",
+          "location": "Bogota",
+          "deadline": "2026-08-17",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-b50b4c8ca6a9/candidate/so/pm/4/pl/1/opp/27257-Chevening-and-Political-Officer-Bogota/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-08-05",
+          "is_new": true
+        },
+        {
+          "id": "politics-and-human-rights-intern",
+          "title": "Politics and Human Rights Intern",
+          "location": "Bogota",
+          "deadline": "2026-08-19",
+          "apply_url": "https://fco.tal.net/vx/lang-en-GB/mobile-0/appcentre-1/brand-2/xf-b50b4c8ca6a9/candidate/so/pm/4/pl/1/opp/27268-Politics-and-Human-Rights-Intern/en-GB",
+          "relevance": "out_of_scope",
+          "status": "active",
+          "first_seen": "2026-08-05",
+          "is_new": true
         },
         {
           "id": "international-climate-finance-officer-quito",
@@ -581,7 +627,7 @@
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "playwright",
       "last_checked": "2026-08-04",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -639,7 +685,7 @@
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "webfetch",
       "last_checked": "2026-08-04",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
@@ -685,7 +731,7 @@
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "playwright",
       "last_checked": "2026-08-04",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "disenadora-de-exposiciones",
@@ -732,7 +778,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": []
     },
@@ -741,7 +787,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "webfetch",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -829,7 +875,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -885,7 +931,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "playwright",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -995,7 +1041,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": []
     },
@@ -1004,7 +1050,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-04",
+      "last_checked": "2026-08-05",
       "failed_today": false,
       "vacancies": [
         {
