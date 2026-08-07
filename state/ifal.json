@@ -1,9 +1,20 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-08-05",
+  "last_checked": "2026-08-06",
   "fetch_method": "playwright",
   "vacancies": [
+    {
+      "id": "offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
+      "title": "Directeur(trice) des cours, du centre d'examens et des formations",
+      "apply_url": "https://ifal.mx/ofertas/offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
+      "location": "CDMX · IFAL",
+      "deadline": "2026-08-26",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Dirección de cursos, centro de exámenes y formación; requiere experiencia en gestión de programas, equipos y enseñanza de FLE. La ficha completa y modalidades de candidatura están enlazadas desde la publicación.",
+      "first_seen": "2026-08-06"
+    },
     {
       "id": "stagiaire-en-production-evenementielle-et-cooperation-culturelle",
       "title": "Stagiaire en production événementielle et coopération culturelle",

@@ -20,11 +20,10 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "monitor", message: `British Council, Embajada de España y Museo Franz Mayer no pudieron verificarse por restricciones del navegador; se preservaron sus snapshots buenos del 2026-08-04.` },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["british_council", "exteriores", "franz_mayer"]);
+const failed = new Set();
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
