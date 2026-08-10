@@ -20,10 +20,14 @@ const definitions = [
 ];
 
 const warnings = [
+  { site: "british_council", message: "No se pudo verificar hoy: la lectura Playwright fue bloqueada por la política del navegador. Se conservó el snapshot del 2026-08-09." },
+  { site: "exteriores", message: "No se pudo verificar hoy: WebFetch devolvió 403 y la lectura de respaldo fue bloqueada. Se conservó el snapshot del 2026-08-09." },
+  { site: "franz_mayer", message: "No se pudo verificar hoy: la lectura Playwright fue bloqueada por la política del navegador. Se conservó el snapshot del 2026-08-09." },
+  { site: "alianza_mx", message: "No se pudo verificar hoy: WebFetch devolvió 502 y la lectura de respaldo fue bloqueada. Se conservó el snapshot del 2026-08-09." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set();
+const failed = new Set(["british_council", "exteriores", "franz_mayer", "alianza_mx"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
