@@ -1,8 +1,8 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-08-09",
-  "fetch_method": "webfetch",
+  "last_checked": "2026-08-11",
+  "fetch_method": "agent-browser",
   "vacancies": [
     {
       "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",

@@ -20,14 +20,11 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "british_council", message: "No se pudo verificar hoy: la lectura Playwright fue bloqueada por la política del navegador. Se conservó el snapshot del 2026-08-09." },
-  { site: "exteriores", message: "No se pudo verificar hoy: WebFetch devolvió 403 y la lectura de respaldo fue bloqueada. Se conservó el snapshot del 2026-08-09." },
-  { site: "franz_mayer", message: "No se pudo verificar hoy: la lectura Playwright fue bloqueada por la política del navegador. Se conservó el snapshot del 2026-08-09." },
-  { site: "alianza_mx", message: "No se pudo verificar hoy: WebFetch devolvió 502 y la lectura de respaldo fue bloqueada. Se conservó el snapshot del 2026-08-09." },
+  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch. Error final: la URL fue rechazada como no segura (no reintentable); por instrucción de seguridad no se usó otro método. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["british_council", "exteriores", "franz_mayer", "alianza_mx"]);
+const failed = new Set(["fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
@@ -90,7 +87,7 @@ function siteBlock(site) {
   return `<details class="site" data-site-key="${site.key}"${site.vacancies.some(active) ? " open" : ""}>
   <summary><span class="site-title">${escape(site.name)}${site.failed_today ? ' <span class="badge badge-closed">Error</span>' : ""}</span><span class="site-count${site.vacancies.length ? " has" : ""}">${count}</span></summary>
   <div class="site-body">
-    <div class="meta"><span>Método: ${site.method === "playwright" ? "Playwright" : "WebFetch"}</span><a href="${escape(site.url)}" target="_blank">Abrir sitio</a><span>Último estado: ${escape(site.last_checked)}</span></div>
+    <div class="meta"><span>Método: ${{ playwright: "Playwright", "agent-browser": "agent-browser", webfetch: "WebFetch" }[site.method] || escape(site.method)}</span><a href="${escape(site.url)}" target="_blank">Abrir sitio</a><span>Último estado: ${escape(site.last_checked)}</span></div>
 ${body}
   </div>
 </details>`;
