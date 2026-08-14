@@ -20,13 +20,13 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "exteriores", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 403 y el acceso por navegador fue bloqueado por la política de seguridad; no se permitió continuar con Playwright. Se conservó el snapshot del 2026-08-11." },
-  { site: "franz_mayer", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: el acceso fue bloqueado por la política de seguridad; no se permitió continuar con Playwright. Se conservó el snapshot del 2026-08-11." },
+  { site: "alianza_mx", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 502 y el acceso por navegador fue bloqueado por la política de seguridad; no se permitió continuar con Playwright. Se conservó el snapshot del 2026-08-13." },
+  { site: "franz_mayer", message: "No se pudo verificar hoy. Método intentado: agent-browser, con recarga. Error final: la carga no terminó y el reintento fue bloqueado por la política de seguridad; no se permitió continuar con Playwright. Se conservó el snapshot del 2026-08-11." },
   { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch rechazó la URL como no segura y el navegador mostró una verificación humana; no se resolvió el CAPTCHA ni se continuó. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["exteriores", "franz_mayer", "fco"]);
+const failed = new Set(["alianza_mx", "franz_mayer", "fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
