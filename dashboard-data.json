@@ -1,9 +1,9 @@
 {
-  "last_run": "2026-08-15",
+  "last_run": "2026-08-16",
   "warnings": [
     {
       "site": "fco",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch rechazó la URL como no segura y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA ni se continuó con Playwright. Se conservó el snapshot del 2026-08-10."
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no devolvió contenido útil y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA ni se continuó con Playwright. Se conservó el snapshot del 2026-08-10."
     },
     {
       "site": "fco",
@@ -626,7 +626,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
@@ -708,7 +708,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
@@ -754,7 +754,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
@@ -801,8 +801,8 @@
       "key": "museo_tamayo",
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
-      "method": "webfetch",
-      "last_checked": "2026-08-15",
+      "method": "agent-browser",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": []
     },
@@ -811,13 +811,13 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
           "id": "candidature-spontanee-professeur-fle",
           "title": "Candidature Spontanée Professeur FLE",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseIVjba70",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v0",
           "deadline": null,
           "status": "permanent",
           "relevance": "in_scope",
@@ -831,7 +831,7 @@
         {
           "id": "personal-de-intendencia",
           "title": "Personal de intendencia",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseIVjba71",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v1",
           "location": "CDMX · Centro Del Valle",
           "deadline": null,
           "status": "active",
@@ -847,7 +847,7 @@
         {
           "id": "responsable-de-centre",
           "title": "Responsable de centre",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseIVjba72",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v2",
           "location": "CDMX · Alianza Francesa de México",
           "deadline": "2026-08-16",
           "status": "active",
@@ -898,8 +898,8 @@
       "key": "alianza_org",
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
-      "method": "webfetch",
-      "last_checked": "2026-08-15",
+      "method": "agent-browser",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
@@ -955,7 +955,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {
@@ -1076,8 +1076,8 @@
       "key": "ireland",
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
-      "method": "agent-browser",
-      "last_checked": "2026-08-15",
+      "method": "playwright",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": []
     },
@@ -1085,8 +1085,8 @@
       "key": "jumex",
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
-      "method": "webfetch",
-      "last_checked": "2026-08-15",
+      "method": "agent-browser",
+      "last_checked": "2026-08-16",
       "failed_today": false,
       "vacancies": [
         {

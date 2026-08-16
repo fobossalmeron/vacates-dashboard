@@ -1,8 +1,8 @@
 {
   "site": "alianza_org",
   "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
-  "last_checked": "2026-08-15",
-  "fetch_method": "webfetch",
+  "last_checked": "2026-08-16",
+  "fetch_method": "agent-browser",
   "vacancies": [
     {
       "id": "director-alianza-francesa-merida",

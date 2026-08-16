@@ -20,7 +20,7 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch rechazó la URL como no segura y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA ni se continuó con Playwright. Se conservó el snapshot del 2026-08-10." },
+  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no devolvió contenido útil y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA ni se continuó con Playwright. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
