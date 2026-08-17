@@ -1,9 +1,25 @@
 {
-  "last_run": "2026-08-16",
+  "last_run": "2026-08-17",
   "warnings": [
     {
+      "site": "british_council",
+      "message": "No se pudo verificar hoy. Métodos intentados: agent-browser; la navegación fue denegada por la política de seguridad antes de cargar contenido, que además prohibió reintentar mediante Playwright u otra superficie. Se conservó el snapshot del 2026-08-16."
+    },
+    {
+      "site": "exteriores",
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 403 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
+    },
+    {
+      "site": "franz_mayer",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
+    },
+    {
+      "site": "alianza_mx",
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 502 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
+    },
+    {
       "site": "fco",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no devolvió contenido útil y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA ni se continuó con Playwright. Se conservó el snapshot del 2026-08-10."
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: WebFetch no permitió abrir el URL y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA. Se conservó el snapshot del 2026-08-10."
     },
     {
       "site": "fco",
@@ -12,7 +28,7 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 1,
+    "sites_with_error": 5,
     "relevant_active": 10,
     "out_of_scope": 42,
     "closed": 65,
@@ -627,7 +643,7 @@
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
       "last_checked": "2026-08-16",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -709,7 +725,7 @@
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
       "last_checked": "2026-08-16",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
@@ -755,7 +771,7 @@
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
       "last_checked": "2026-08-16",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "disenadora-de-exposiciones",
@@ -801,8 +817,8 @@
       "key": "museo_tamayo",
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
-      "method": "agent-browser",
-      "last_checked": "2026-08-16",
+      "method": "webfetch",
+      "last_checked": "2026-08-17",
       "failed_today": false,
       "vacancies": []
     },
@@ -812,7 +828,7 @@
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
       "last_checked": "2026-08-16",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "candidature-spontanee-professeur-fle",
@@ -898,8 +914,8 @@
       "key": "alianza_org",
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
-      "method": "agent-browser",
-      "last_checked": "2026-08-16",
+      "method": "webfetch",
+      "last_checked": "2026-08-17",
       "failed_today": false,
       "vacancies": [
         {
@@ -955,7 +971,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-16",
+      "last_checked": "2026-08-17",
       "failed_today": false,
       "vacancies": [
         {
@@ -1076,8 +1092,8 @@
       "key": "ireland",
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
-      "method": "playwright",
-      "last_checked": "2026-08-16",
+      "method": "agent-browser",
+      "last_checked": "2026-08-17",
       "failed_today": false,
       "vacancies": []
     },
@@ -1085,8 +1101,8 @@
       "key": "jumex",
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
-      "method": "agent-browser",
-      "last_checked": "2026-08-16",
+      "method": "webfetch",
+      "last_checked": "2026-08-17",
       "failed_today": false,
       "vacancies": [
         {
