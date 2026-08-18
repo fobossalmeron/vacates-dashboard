@@ -1,10 +1,6 @@
 {
-  "last_run": "2026-08-17",
+  "last_run": "2026-08-18",
   "warnings": [
-    {
-      "site": "british_council",
-      "message": "No se pudo verificar hoy. Métodos intentados: agent-browser; la navegación fue denegada por la política de seguridad antes de cargar contenido, que además prohibió reintentar mediante Playwright u otra superficie. Se conservó el snapshot del 2026-08-16."
-    },
     {
       "site": "exteriores",
       "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 403 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
@@ -18,8 +14,12 @@
       "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 502 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
     },
     {
+      "site": "ifal",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-17."
+    },
+    {
       "site": "fco",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: WebFetch no permitió abrir el URL y el navegador mostró una verificación humana; no se interactuó con el CAPTCHA. Se conservó el snapshot del 2026-08-10."
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no permitió abrir el URL y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-10."
     },
     {
       "site": "fco",
@@ -642,8 +642,8 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-08-16",
-      "failed_today": true,
+      "last_checked": "2026-08-18",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -818,7 +818,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-17",
+      "last_checked": "2026-08-18",
       "failed_today": false,
       "vacancies": []
     },
@@ -915,7 +915,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-17",
+      "last_checked": "2026-08-18",
       "failed_today": false,
       "vacancies": [
         {
@@ -972,7 +972,7 @@
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
       "last_checked": "2026-08-17",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
@@ -1093,7 +1093,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
-      "last_checked": "2026-08-17",
+      "last_checked": "2026-08-18",
       "failed_today": false,
       "vacancies": []
     },
@@ -1102,7 +1102,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-17",
+      "last_checked": "2026-08-18",
       "failed_today": false,
       "vacancies": [
         {
