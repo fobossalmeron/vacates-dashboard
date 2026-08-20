@@ -1,13 +1,13 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-08-16",
+  "last_checked": "2026-08-19",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
       "id": "candidature-spontanee-professeur-fle",
       "title": "Candidature Spontanée Professeur FLE",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v0",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd0",
       "deadline": null,
       "status": "permanent",
       "relevance": "in_scope",
@@ -20,7 +20,7 @@
     {
       "id": "personal-de-intendencia",
       "title": "Personal de intendencia",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v1",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd1",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
       "status": "active",
@@ -35,16 +35,16 @@
     {
       "id": "responsable-de-centre",
       "title": "Responsable de centre",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v2",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd2",
       "location": "CDMX · Alianza Francesa de México",
       "deadline": "2026-08-16",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
       "contact_emails": [
         "chantal.durand@alianzafrancesamx.edu.mx",
         "coordpedagogia@alianzafrancesamx.edu.mx"
       ],
-      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico.",
+      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico. Deadline pasado (2026-08-16); marcada cerrada el 2026-08-19 aunque sigue visible en el listado.",
       "first_seen": "2026-07-10"
     },
     {

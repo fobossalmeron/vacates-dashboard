@@ -20,15 +20,13 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "exteriores", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 403 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16." },
-  { site: "franz_mayer", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16." },
-  { site: "alianza_mx", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 502 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16." },
-  { site: "ifal", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-17." },
-  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no permitió abrir el URL y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-10." },
+  { site: "british_council", message: "No se pudo verificar hoy. Método intentado: agent-browser con recarga. Error final: la recarga fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18." },
+  { site: "ireland", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18." },
+  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: el sitio exige una verificación humana ('I'm not a robot'); no se completó. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["exteriores", "franz_mayer", "alianza_mx", "ifal", "fco"]);
+const failed = new Set(["british_council", "ireland", "fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

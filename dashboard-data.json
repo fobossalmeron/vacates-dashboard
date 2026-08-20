@@ -1,25 +1,17 @@
 {
-  "last_run": "2026-08-18",
+  "last_run": "2026-08-19",
   "warnings": [
     {
-      "site": "exteriores",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 403 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
+      "site": "british_council",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser con recarga. Error final: la recarga fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18."
     },
     {
-      "site": "franz_mayer",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
-    },
-    {
-      "site": "alianza_mx",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch devolvió 502 y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-16."
-    },
-    {
-      "site": "ifal",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-17."
+      "site": "ireland",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18."
     },
     {
       "site": "fco",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. Error final: WebFetch no permitió abrir el URL y la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright. Se conservó el snapshot del 2026-08-10."
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: el sitio exige una verificación humana ('I'm not a robot'); no se completó. Se conservó el snapshot del 2026-08-10."
     },
     {
       "site": "fco",
@@ -28,12 +20,12 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 5,
+    "sites_with_error": 3,
     "relevant_active": 10,
     "out_of_scope": 42,
-    "closed": 65,
-    "new_today": 0,
-    "removed_today": 0
+    "closed": 66,
+    "new_today": 1,
+    "removed_today": 1
   },
   "sites": [
     {
@@ -643,7 +635,7 @@
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
       "last_checked": "2026-08-18",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "business-performance-support-manager",
@@ -724,9 +716,21 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-16",
-      "failed_today": true,
+      "last_checked": "2026-08-19",
+      "failed_today": false,
       "vacancies": [
+        {
+          "id": "auxiliar-consejeria-de-trabajo-migraciones-y-seguridad-social-en-mexico-2-plazas",
+          "title": "Auxiliar — Consejería de Trabajo, Migraciones y Seguridad Social en México (2 plazas)",
+          "apply_url": "https://consejeria.mites.gob.es/mexico/novedades/2026/agosto/14-08-2026",
+          "location": "CDMX",
+          "deadline": "2026-08-31",
+          "status": "active",
+          "relevance": "in_scope",
+          "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel.",
+          "first_seen": "2026-08-19",
+          "is_new": true
+        },
         {
           "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
           "title": "Auxiliar — Embajada de España en México (2 plazas)",
@@ -770,8 +774,8 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-08-16",
-      "failed_today": true,
+      "last_checked": "2026-08-19",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "disenadora-de-exposiciones",
@@ -818,7 +822,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-18",
+      "last_checked": "2026-08-19",
       "failed_today": false,
       "vacancies": []
     },
@@ -827,13 +831,13 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-08-16",
-      "failed_today": true,
+      "last_checked": "2026-08-19",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "candidature-spontanee-professeur-fle",
           "title": "Candidature Spontanée Professeur FLE",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v0",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd0",
           "deadline": null,
           "status": "permanent",
           "relevance": "in_scope",
@@ -847,7 +851,7 @@
         {
           "id": "personal-de-intendencia",
           "title": "Personal de intendencia",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v1",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd1",
           "location": "CDMX · Centro Del Valle",
           "deadline": null,
           "status": "active",
@@ -863,16 +867,16 @@
         {
           "id": "responsable-de-centre",
           "title": "Responsable de centre",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseJu6N1v2",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd2",
           "location": "CDMX · Alianza Francesa de México",
           "deadline": "2026-08-16",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
           "contact_emails": [
             "chantal.durand@alianzafrancesamx.edu.mx",
             "coordpedagogia@alianzafrancesamx.edu.mx"
           ],
-          "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico.",
+          "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico. Deadline pasado (2026-08-16); marcada cerrada el 2026-08-19 aunque sigue visible en el listado.",
           "first_seen": "2026-07-10",
           "is_new": false
         },
@@ -915,7 +919,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-18",
+      "last_checked": "2026-08-19",
       "failed_today": false,
       "vacancies": [
         {
@@ -971,8 +975,8 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-17",
-      "failed_today": true,
+      "last_checked": "2026-08-19",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
@@ -1094,7 +1098,7 @@
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
       "last_checked": "2026-08-18",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": []
     },
     {
@@ -1102,7 +1106,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-18",
+      "last_checked": "2026-08-19",
       "failed_today": false,
       "vacancies": [
         {

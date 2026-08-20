@@ -1,9 +1,20 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-08-16",
+  "last_checked": "2026-08-19",
   "fetch_method": "agent-browser",
   "vacancies": [
+    {
+      "id": "auxiliar-consejeria-de-trabajo-migraciones-y-seguridad-social-en-mexico-2-plazas",
+      "title": "Auxiliar — Consejería de Trabajo, Migraciones y Seguridad Social en México (2 plazas)",
+      "apply_url": "https://consejeria.mites.gob.es/mexico/novedades/2026/agosto/14-08-2026",
+      "location": "CDMX",
+      "deadline": "2026-08-31",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel.",
+      "first_seen": "2026-08-19"
+    },
     {
       "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
       "title": "Auxiliar — Embajada de España en México (2 plazas)",
