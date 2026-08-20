@@ -1,14 +1,6 @@
 {
-  "last_run": "2026-08-19",
+  "last_run": "2026-08-20",
   "warnings": [
-    {
-      "site": "british_council",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser con recarga. Error final: la recarga fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18."
-    },
-    {
-      "site": "ireland",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la navegación fue denegada por la política de seguridad, que prohibió continuar con Playwright u otra alternativa. Se conservó el snapshot del 2026-08-18."
-    },
     {
       "site": "fco",
       "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: el sitio exige una verificación humana ('I'm not a robot'); no se completó. Se conservó el snapshot del 2026-08-10."
@@ -20,12 +12,12 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 3,
-    "relevant_active": 10,
+    "sites_with_error": 1,
+    "relevant_active": 11,
     "out_of_scope": 42,
     "closed": 66,
     "new_today": 1,
-    "removed_today": 1
+    "removed_today": 0
   },
   "sites": [
     {
@@ -634,9 +626,21 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-08-18",
-      "failed_today": true,
+      "last_checked": "2026-08-20",
+      "failed_today": false,
       "vacancies": [
+        {
+          "id": "arts-project-officer",
+          "title": "Arts Project Officer",
+          "apply_url": "https://careers.britishcouncil.org/careers/job/563705892577716",
+          "location": "Mexico · Hybrid",
+          "deadline": "2026-09-02",
+          "status": "active",
+          "relevance": "in_scope",
+          "notes": "Apoyo a programas de arte y cultura, administración financiera, reportes, evaluación, coordinación de eventos y gestión de socios. Contrato IDC, Pay Band 4; modalidad híbrida con 3 días por semana en oficina; requiere experiencia en un área relacionada con artes, inglés y derecho vigente para trabajar en México.",
+          "first_seen": "2026-08-20",
+          "is_new": true
+        },
         {
           "id": "business-performance-support-manager",
           "title": "Business Performance Support Manager",
@@ -716,7 +720,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {
@@ -729,7 +733,7 @@
           "relevance": "in_scope",
           "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel.",
           "first_seen": "2026-08-19",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "auxiliar-embajada-dos-plazas-auxiliares-administrativos",
@@ -774,7 +778,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {
@@ -822,7 +826,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": []
     },
@@ -831,13 +835,13 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {
           "id": "candidature-spontanee-professeur-fle",
           "title": "Candidature Spontanée Professeur FLE",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd0",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseRrGb8u0",
           "deadline": null,
           "status": "permanent",
           "relevance": "in_scope",
@@ -851,7 +855,7 @@
         {
           "id": "personal-de-intendencia",
           "title": "Personal de intendencia",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd1",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseRrGb8u1",
           "location": "CDMX · Centro Del Valle",
           "deadline": null,
           "status": "active",
@@ -867,7 +871,7 @@
         {
           "id": "responsable-de-centre",
           "title": "Responsable de centre",
-          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseli2cPd2",
+          "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseRrGb8u2",
           "location": "CDMX · Alianza Francesa de México",
           "deadline": "2026-08-16",
           "status": "closed",
@@ -919,7 +923,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {
@@ -975,7 +979,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {
@@ -1097,8 +1101,8 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
-      "last_checked": "2026-08-18",
-      "failed_today": true,
+      "last_checked": "2026-08-20",
+      "failed_today": false,
       "vacancies": []
     },
     {
@@ -1106,7 +1110,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-19",
+      "last_checked": "2026-08-20",
       "failed_today": false,
       "vacancies": [
         {

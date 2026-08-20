@@ -1,9 +1,20 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-08-18",
+  "last_checked": "2026-08-20",
   "fetch_method": "agent-browser",
   "vacancies": [
+    {
+      "id": "arts-project-officer",
+      "title": "Arts Project Officer",
+      "apply_url": "https://careers.britishcouncil.org/careers/job/563705892577716",
+      "location": "Mexico · Hybrid",
+      "deadline": "2026-09-02",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Apoyo a programas de arte y cultura, administración financiera, reportes, evaluación, coordinación de eventos y gestión de socios. Contrato IDC, Pay Band 4; modalidad híbrida con 3 días por semana en oficina; requiere experiencia en un área relacionada con artes, inglés y derecho vigente para trabajar en México.",
+      "first_seen": "2026-08-20"
+    },
     {
       "id": "business-performance-support-manager",
       "title": "Business Performance Support Manager",
