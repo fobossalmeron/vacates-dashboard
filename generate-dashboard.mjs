@@ -22,9 +22,10 @@ const definitions = [
 const warnings = [
   { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser y Playwright. Error final: el sitio exige una verificación humana ('I'm not a robot'); no se completó. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
+  { site: "ireland", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso a ireland.ie; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-20." },
 ];
 
-const failed = new Set(["fco"]);
+const failed = new Set(["fco", "ireland"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
