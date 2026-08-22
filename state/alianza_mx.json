@@ -1,13 +1,13 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-08-21",
+  "last_checked": "2026-08-22",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
       "id": "candidature-spontanee-professeur-fle",
       "title": "Candidature Spontanée Professeur FLE",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseNdoeEg0",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD0",
       "deadline": null,
       "status": "permanent",
       "relevance": "in_scope",
@@ -20,7 +20,7 @@
     {
       "id": "personal-de-intendencia",
       "title": "Personal de intendencia",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapseNdoeEg1",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD1",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
       "status": "active",
@@ -44,8 +44,23 @@
         "chantal.durand@alianzafrancesamx.edu.mx",
         "coordpedagogia@alianzafrancesamx.edu.mx"
       ],
-      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico. Deadline pasado (2026-08-16); marcada cerrada el 2026-08-19 aunque sigue visible en el listado.",
+      "notes": "CDI local con periodo de prueba de 6 meses; inicio lo antes posible; 40h/semana; responsable de centro y equipo pedagógico. Deadline pasado (2026-08-16); marcada cerrada el 2026-08-19 y removida del listado el 2026-08-22.",
       "first_seen": "2026-07-10"
+    },
+    {
+      "id": "asistente-de-recepcion",
+      "title": "Asistente de recepción",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD2",
+      "location": "CDMX · Centro Del Valle",
+      "deadline": null,
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "mbanuelos@alianzafrancesamx.edu.mx"
+      ],
+      "salary": "$13,700.00 MXN bruto mensual",
+      "notes": "Recepción, ventas, atención a clientes, tareas administrativas y facturación. Horario lunes a jueves 12:00-20:00, viernes 10:00-18:00 y dos sábados al mes 8:00-13:00; prestaciones de ley y beca para estudiar francés.",
+      "first_seen": "2026-08-22"
     },
     {
       "id": "encargado-de-mantenimiento-e-intendente",
