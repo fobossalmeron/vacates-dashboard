@@ -20,9 +20,6 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "british_council", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22." },
-  { site: "exteriores", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. WebFetch devolvió 403; después una política de seguridad del navegador bloqueó el acceso. Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22." },
-  { site: "franz_mayer", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22." },
   { site: "alianza_mx", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. WebFetch devolvió 502; después una política de seguridad del navegador bloqueó el acceso. Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22." },
   { site: "ifal", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22." },
   { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. WebFetch rechazó el URL como no seguro; después una política de seguridad del navegador bloqueó el acceso. Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-10." },
@@ -30,7 +27,7 @@ const warnings = [
   { site: "ireland", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-20." },
 ];
 
-const failed = new Set(["british_council", "exteriores", "franz_mayer", "alianza_mx", "ifal", "fco", "ireland"]);
+const failed = new Set(["alianza_mx", "ifal", "fco", "ireland"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

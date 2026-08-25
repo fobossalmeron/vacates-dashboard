@@ -1,18 +1,6 @@
 {
-  "last_run": "2026-08-23",
+  "last_run": "2026-08-24",
   "warnings": [
-    {
-      "site": "british_council",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22."
-    },
-    {
-      "site": "exteriores",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. WebFetch devolvió 403; después una política de seguridad del navegador bloqueó el acceso. Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22."
-    },
-    {
-      "site": "franz_mayer",
-      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: una política de seguridad del navegador bloqueó el acceso; Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22."
-    },
     {
       "site": "alianza_mx",
       "message": "No se pudo verificar hoy. Métodos intentados: WebFetch y agent-browser. WebFetch devolvió 502; después una política de seguridad del navegador bloqueó el acceso. Playwright no se intentó para no evadir la prohibición. Se conservó el snapshot del 2026-08-22."
@@ -36,12 +24,12 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 7,
-    "relevant_active": 12,
+    "sites_with_error": 4,
+    "relevant_active": 11,
     "out_of_scope": 42,
-    "closed": 66,
+    "closed": 67,
     "new_today": 0,
-    "removed_today": 0
+    "removed_today": 1
   },
   "sites": [
     {
@@ -650,8 +638,8 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-08-22",
-      "failed_today": true,
+      "last_checked": "2026-08-24",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "arts-project-officer",
@@ -695,9 +683,9 @@
           "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
           "location": "Mexico · Hybrid",
           "deadline": "2026-08-23",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Reabierta y publicada nuevamente el 2026-08-10 con cierre el 2026-08-23. Contrato indefinido, modalidad híbrida; apoyo logístico y administrativo a Teaching Operations. Requiere inglés y derecho legal para trabajar en México. La publicación anterior cerró el 2026-07-21 y fue removida el 2026-07-24.",
+          "notes": "Reabierta y publicada nuevamente el 2026-08-10 con cierre el 2026-08-23. Contrato indefinido, modalidad híbrida; apoyo logístico y administrativo a Teaching Operations. Requiere inglés y derecho legal para trabajar en México. La publicación anterior cerró el 2026-07-21 y fue removida el 2026-07-24. Deadline pasado (2026-08-23); removida del listado el 2026-08-24.",
           "first_seen": "2026-08-11",
           "is_new": false
         },
@@ -744,8 +732,8 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-22",
-      "failed_today": true,
+      "last_checked": "2026-08-24",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "auxiliar-consejeria-de-trabajo-migraciones-y-seguridad-social-en-mexico-2-plazas",
@@ -802,8 +790,8 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-08-22",
-      "failed_today": true,
+      "last_checked": "2026-08-24",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "disenadora-de-exposiciones",
@@ -850,7 +838,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-23",
+      "last_checked": "2026-08-24",
       "failed_today": false,
       "vacancies": []
     },
@@ -963,7 +951,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-23",
+      "last_checked": "2026-08-24",
       "failed_today": false,
       "vacancies": [
         {
@@ -1150,7 +1138,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-23",
+      "last_checked": "2026-08-24",
       "failed_today": false,
       "vacancies": [
         {

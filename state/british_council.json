@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-08-22",
+  "last_checked": "2026-08-24",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
@@ -43,9 +43,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705891362962",
       "location": "Mexico · Hybrid",
       "deadline": "2026-08-23",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Reabierta y publicada nuevamente el 2026-08-10 con cierre el 2026-08-23. Contrato indefinido, modalidad híbrida; apoyo logístico y administrativo a Teaching Operations. Requiere inglés y derecho legal para trabajar en México. La publicación anterior cerró el 2026-07-21 y fue removida el 2026-07-24.",
+      "notes": "Reabierta y publicada nuevamente el 2026-08-10 con cierre el 2026-08-23. Contrato indefinido, modalidad híbrida; apoyo logístico y administrativo a Teaching Operations. Requiere inglés y derecho legal para trabajar en México. La publicación anterior cerró el 2026-07-21 y fue removida el 2026-07-24. Deadline pasado (2026-08-23); removida del listado el 2026-08-24.",
       "first_seen": "2026-08-11"
     },
     {
