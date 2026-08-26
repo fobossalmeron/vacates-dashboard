@@ -1,8 +1,8 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-08-25",
-  "fetch_method": "agent-browser",
+  "last_checked": "2026-08-26",
+  "fetch_method": "playwright",
   "vacancies": [
     {
       "id": "arts-project-officer",

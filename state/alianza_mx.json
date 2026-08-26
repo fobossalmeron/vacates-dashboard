@@ -1,7 +1,7 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-08-25",
+  "last_checked": "2026-08-26",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
@@ -53,13 +53,13 @@
       "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD2",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
       "contact_emails": [
         "mbanuelos@alianzafrancesamx.edu.mx"
       ],
       "salary": "$13,700.00 MXN bruto mensual",
-      "notes": "Recepción, ventas, atención a clientes, tareas administrativas y facturación. Horario lunes a jueves 12:00-20:00, viernes 10:00-18:00 y dos sábados al mes 8:00-13:00; prestaciones de ley y beca para estudiar francés.",
+      "notes": "Recepción, ventas, atención a clientes, tareas administrativas y facturación. Horario lunes a jueves 12:00-20:00, viernes 10:00-18:00 y dos sábados al mes 8:00-13:00; prestaciones de ley y beca para estudiar francés. Removida del listado el 2026-08-26.",
       "first_seen": "2026-08-22"
     },
     {

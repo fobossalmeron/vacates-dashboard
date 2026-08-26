@@ -1,23 +1,31 @@
 {
-  "last_run": "2026-08-25",
+  "last_run": "2026-08-26",
   "warnings": [
     {
       "site": "fco",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser (incluido un reload) y Playwright (incluido un reload). Error final: el sitio mantuvo un control anti-bot que requiere verificación humana. Se conservó el snapshot del 2026-08-10."
+      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser (incluido un reload) y Playwright. Error final: el sitio mantuvo un control anti-bot que requiere verificación humana. Se conservó el snapshot del 2026-08-10."
     },
     {
       "site": "fco",
       "message": "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades."
+    },
+    {
+      "site": "franz_mayer",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la política de seguridad del navegador bloqueó el acceso y prohibió reintentos o métodos alternativos. Se conservó el snapshot del 2026-08-25."
+    },
+    {
+      "site": "ireland",
+      "message": "No se pudo verificar hoy. Método intentado: agent-browser con un reload. Error final: tras un cambio de red, la política del navegador bloqueó el URL y prohibió métodos alternativos. Se conservó el snapshot del 2026-08-25."
     }
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 1,
-    "relevant_active": 11,
+    "sites_with_error": 3,
+    "relevant_active": 10,
     "out_of_scope": 42,
-    "closed": 67,
+    "closed": 68,
     "new_today": 0,
-    "removed_today": 0
+    "removed_today": 1
   },
   "sites": [
     {
@@ -625,8 +633,8 @@
       "key": "british_council",
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-      "method": "agent-browser",
-      "last_checked": "2026-08-25",
+      "method": "playwright",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -720,7 +728,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -779,7 +787,7 @@
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
       "last_checked": "2026-08-25",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": [
         {
           "id": "disenadora-de-exposiciones",
@@ -826,7 +834,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": []
     },
@@ -835,7 +843,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -890,13 +898,13 @@
           "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD2",
           "location": "CDMX · Centro Del Valle",
           "deadline": null,
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
           "contact_emails": [
             "mbanuelos@alianzafrancesamx.edu.mx"
           ],
           "salary": "$13,700.00 MXN bruto mensual",
-          "notes": "Recepción, ventas, atención a clientes, tareas administrativas y facturación. Horario lunes a jueves 12:00-20:00, viernes 10:00-18:00 y dos sábados al mes 8:00-13:00; prestaciones de ley y beca para estudiar francés.",
+          "notes": "Recepción, ventas, atención a clientes, tareas administrativas y facturación. Horario lunes a jueves 12:00-20:00, viernes 10:00-18:00 y dos sábados al mes 8:00-13:00; prestaciones de ley y beca para estudiar francés. Removida del listado el 2026-08-26.",
           "first_seen": "2026-08-22",
           "is_new": false
         },
@@ -939,7 +947,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -995,7 +1003,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
@@ -1118,7 +1126,7 @@
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "playwright",
       "last_checked": "2026-08-25",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": []
     },
     {
@@ -1126,7 +1134,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-25",
+      "last_checked": "2026-08-26",
       "failed_today": false,
       "vacancies": [
         {
