@@ -1,13 +1,13 @@
 {
   "site": "alianza_mx",
   "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
-  "last_checked": "2026-08-26",
+  "last_checked": "2026-08-27",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
       "id": "candidature-spontanee-professeur-fle",
       "title": "Candidature Spontanée Professeur FLE",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD0",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapselQKO8R0",
       "deadline": null,
       "status": "permanent",
       "relevance": "in_scope",
@@ -20,7 +20,7 @@
     {
       "id": "personal-de-intendencia",
       "title": "Personal de intendencia",
-      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapsetIfxyD1",
+      "apply_url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros#collapselQKO8R1",
       "location": "CDMX · Centro Del Valle",
       "deadline": null,
       "status": "active",

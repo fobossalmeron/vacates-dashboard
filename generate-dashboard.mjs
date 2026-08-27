@@ -20,13 +20,11 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "fco", message: "No se pudo verificar hoy. Métodos intentados: WebFetch, agent-browser (incluido un reload) y Playwright. Error final: el sitio mantuvo un control anti-bot que requiere verificación humana. Se conservó el snapshot del 2026-08-10." },
+  { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
-  { site: "franz_mayer", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la política de seguridad del navegador bloqueó el acceso y prohibió reintentos o métodos alternativos. Se conservó el snapshot del 2026-08-25." },
-  { site: "ireland", message: "No se pudo verificar hoy. Método intentado: agent-browser con un reload. Error final: tras un cambio de red, la política del navegador bloqueó el URL y prohibió métodos alternativos. Se conservó el snapshot del 2026-08-25." },
 ];
 
-const failed = new Set(["fco", "franz_mayer", "ireland"]);
+const failed = new Set(["fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

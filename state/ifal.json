@@ -1,7 +1,7 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-08-26",
+  "last_checked": "2026-08-27",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
@@ -10,9 +10,9 @@
       "apply_url": "https://ifal.mx/ofertas/offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
       "location": "CDMX · IFAL",
       "deadline": "2026-08-26",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Dirección de cursos, centro de exámenes y formación; requiere experiencia en gestión de programas, equipos y enseñanza de FLE. La ficha completa y modalidades de candidatura están enlazadas desde la publicación.",
+      "notes": "Dirección de cursos, centro de exámenes y formación; requiere experiencia en gestión de programas, equipos y enseñanza de FLE. La ficha completa y modalidades de candidatura están enlazadas desde la publicación. Deadline pasado (2026-08-26); marcada cerrada el 2026-08-27 aunque sigue visible en el listado.",
       "first_seen": "2026-08-06"
     },
     {

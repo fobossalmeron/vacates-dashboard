@@ -1,7 +1,7 @@
 {
   "site": "ireland",
   "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
-  "last_checked": "2026-08-25",
-  "fetch_method": "playwright",
+  "last_checked": "2026-08-27",
+  "fetch_method": "agent-browser",
   "vacancies": []
 }
