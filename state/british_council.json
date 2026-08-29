@@ -1,7 +1,7 @@
 {
   "site": "british_council",
   "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
-  "last_checked": "2026-08-27",
+  "last_checked": "2026-08-28",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
@@ -54,9 +54,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705892577694",
       "location": "Mexico · Hybrid",
       "deadline": "2026-08-27",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Puesto directivo para liderar la estrategia y el portafolio de educación y educación terciaria. Contrato IDC, Pay Band 8; modalidad híbrida con al menos 3 días por semana en oficina; requiere derecho vigente para trabajar en México e inglés excelente.",
+      "notes": "Puesto directivo para liderar la estrategia y el portafolio de educación y educación terciaria. Contrato IDC, Pay Band 8; modalidad híbrida con al menos 3 días por semana en oficina; requiere derecho vigente para trabajar en México e inglés excelente. Deadline pasado (2026-08-27); removida del listado el 2026-08-28.",
       "first_seen": "2026-08-14"
     },
     {
@@ -65,9 +65,9 @@
       "apply_url": "https://careers.britishcouncil.org/careers/job/563705892577713",
       "location": "Mexico · Hybrid",
       "deadline": "2026-08-27",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Puesto directivo para liderar el portafolio de English and School Education. Contrato IDC, Pay Band 8; modalidad híbrida con al menos 3 días por semana en oficina; requiere derecho vigente para trabajar en México e inglés excelente.",
+      "notes": "Puesto directivo para liderar el portafolio de English and School Education. Contrato IDC, Pay Band 8; modalidad híbrida con al menos 3 días por semana en oficina; requiere derecho vigente para trabajar en México e inglés excelente. Deadline pasado (2026-08-27); removida del listado el 2026-08-28.",
       "first_seen": "2026-08-14"
     },
     {
