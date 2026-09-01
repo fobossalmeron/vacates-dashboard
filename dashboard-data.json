@@ -8,15 +8,11 @@
     {
       "site": "fco",
       "message": "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades."
-    },
-    {
-      "site": "ireland",
-      "message": "No se pudo verificar hoy. Métodos intentados: agent-browser (403 de CloudFront; recarga intentada) y Playwright (bloqueado por la política de seguridad del navegador). Se conservó el snapshot del 2026-08-31."
     }
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 2,
+    "sites_with_error": 1,
     "relevant_active": 6,
     "out_of_scope": 42,
     "closed": 71,
@@ -1121,8 +1117,8 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
-      "failed_today": true,
+      "last_checked": "2026-09-01",
+      "failed_today": false,
       "vacancies": []
     },
     {
