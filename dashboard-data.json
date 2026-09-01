@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-08-31",
+  "last_run": "2026-09-01",
   "warnings": [
     {
       "site": "fco",
@@ -8,16 +8,20 @@
     {
       "site": "fco",
       "message": "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades."
+    },
+    {
+      "site": "ireland",
+      "message": "No se pudo verificar hoy. Métodos intentados: agent-browser (403 de CloudFront; recarga intentada) y Playwright (bloqueado por la política de seguridad del navegador). Se conservó el snapshot del 2026-08-31."
     }
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 1,
-    "relevant_active": 7,
+    "sites_with_error": 2,
+    "relevant_active": 6,
     "out_of_scope": 42,
-    "closed": 70,
+    "closed": 71,
     "new_today": 0,
-    "removed_today": 0
+    "removed_today": 1
   },
   "sites": [
     {
@@ -626,7 +630,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -720,7 +724,7 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -729,9 +733,9 @@
           "apply_url": "https://consejeria.mites.gob.es/mexico/novedades/2026/agosto/14-08-2026",
           "location": "CDMX",
           "deadline": "2026-08-31",
-          "status": "active",
+          "status": "closed",
           "relevance": "in_scope",
-          "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel.",
+          "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel. Deadline pasado (2026-08-31); marcada cerrada el 2026-09-01 aunque sigue visible en el listado.",
           "first_seen": "2026-08-19",
           "is_new": false
         },
@@ -778,7 +782,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -826,7 +830,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": []
     },
@@ -835,7 +839,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -939,7 +943,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -995,7 +999,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {
@@ -1118,7 +1122,7 @@
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
       "last_checked": "2026-08-31",
-      "failed_today": false,
+      "failed_today": true,
       "vacancies": []
     },
     {
@@ -1126,7 +1130,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-08-31",
+      "last_checked": "2026-09-01",
       "failed_today": false,
       "vacancies": [
         {

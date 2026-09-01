@@ -1,7 +1,7 @@
 {
   "site": "exteriores",
   "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
-  "last_checked": "2026-08-31",
+  "last_checked": "2026-09-01",
   "fetch_method": "agent-browser",
   "vacancies": [
     {
@@ -10,9 +10,9 @@
       "apply_url": "https://consejeria.mites.gob.es/mexico/novedades/2026/agosto/14-08-2026",
       "location": "CDMX",
       "deadline": "2026-08-31",
-      "status": "active",
+      "status": "closed",
       "relevance": "in_scope",
-      "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel.",
+      "notes": "Publicada el 2026-08-17. Plazo de 10 días hábiles contados desde el día siguiente a la publicación; las bases enlazadas detallan presentación electrónica o, excepcionalmente, en papel. Deadline pasado (2026-08-31); marcada cerrada el 2026-09-01 aunque sigue visible en el listado.",
       "first_seen": "2026-08-19"
     },
     {

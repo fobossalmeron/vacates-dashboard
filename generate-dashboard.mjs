@@ -22,9 +22,10 @@ const definitions = [
 const warnings = [
   { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
+  { site: "ireland", message: "No se pudo verificar hoy. Métodos intentados: agent-browser (403 de CloudFront; recarga intentada) y Playwright (bloqueado por la política de seguridad del navegador). Se conservó el snapshot del 2026-08-31." },
 ];
 
-const failed = new Set(["fco"]);
+const failed = new Set(["fco", "ireland"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
