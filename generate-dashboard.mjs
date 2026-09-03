@@ -22,10 +22,9 @@ const definitions = [
 const warnings = [
   { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
-  { site: "ifal", message: "No se pudo verificar hoy. Método intentado: agent-browser. Error final: la política de seguridad del navegador bloqueó el acceso a ifal.mx y prohibió métodos alternativos. Se conservó el snapshot del 2026-09-01." },
 ];
 
-const failed = new Set(["fco", "ifal"]);
+const failed = new Set(["fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

@@ -1,9 +1,20 @@
 {
   "site": "ifal",
   "url": "https://ifal.mx/ofertas",
-  "last_checked": "2026-09-01",
+  "last_checked": "2026-09-03",
   "fetch_method": "agent-browser",
   "vacancies": [
+    {
+      "id": "offre-d-emploi-coordinatrice-coordinateur-national-des-certifications-delf-dalf",
+      "title": "Coordinatrice/coordinateur national des certifications DELF-DALF",
+      "apply_url": "https://ifal.mx/ofertas/offre-d-emploi-coordinatrice-coordinateur-national-des-certifications-delf-dalf",
+      "location": "CDMX · IFAL / Embajada de Francia",
+      "deadline": "2026-09-15",
+      "status": "active",
+      "relevance": "in_scope",
+      "notes": "Coordinación nacional de centros de examen, sesiones DELF-DALF, examinadores-correctores y promoción de certificaciones en México. Inicio previsto el 2026-09-21; enviar CV y carta de motivación en francés antes del 2026-09-15. La oferta completa está enlazada desde la publicación.",
+      "first_seen": "2026-09-03"
+    },
     {
       "id": "offre-d-emploi-directeur-trice-des-cours-du-centre-d-examens-et-des-formations",
       "title": "Directeur(trice) des cours, du centre d'examens et des formations",
