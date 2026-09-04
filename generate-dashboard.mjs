@@ -20,11 +20,12 @@ const definitions = [
 ];
 
 const warnings = [
+  { site: "exteriores", message: "No se pudo verificar hoy. Métodos intentados: WebFetch (403) y agent-browser. Error final: el navegador bloqueó el acceso por política de seguridad y prohibió continuar con Playwright u otros métodos. Se conservó el snapshot del 2026-09-03." },
   { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
-const failed = new Set(["fco"]);
+const failed = new Set(["exteriores", "fco"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {
