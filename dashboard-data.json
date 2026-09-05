@@ -1,10 +1,6 @@
 {
-  "last_run": "2026-09-04",
+  "last_run": "2026-09-05",
   "warnings": [
-    {
-      "site": "exteriores",
-      "message": "No se pudo verificar hoy. Métodos intentados: WebFetch (403) y agent-browser. Error final: el navegador bloqueó el acceso por política de seguridad y prohibió continuar con Playwright u otros métodos. Se conservó el snapshot del 2026-09-03."
-    },
     {
       "site": "fco",
       "message": "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10."
@@ -16,11 +12,11 @@
   ],
   "summary": {
     "sites_checked": 10,
-    "sites_with_error": 2,
+    "sites_with_error": 1,
     "relevant_active": 8,
     "out_of_scope": 42,
     "closed": 72,
-    "new_today": 1,
+    "new_today": 0,
     "removed_today": 0
   },
   "sites": [
@@ -630,7 +626,7 @@
       "name": "British Council",
       "url": "https://careers.britishcouncil.org/careers?start=0&location=Mexico&sort_by=distance&filter_include_remote=1",
       "method": "agent-browser",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -656,7 +652,7 @@
           "salary": "$48,856–$54,963 MXN bruto mensual",
           "notes": "Liderazgo académico del centro de enseñanza, calidad docente y desarrollo profesional. Contrato de 2 años, tiempo completo y presencial; requiere grado universitario, inglés C2, TEFL-Q y experiencia de gestión académica. Publicada el 2026-09-04; entrevistas previstas del 24 al 30 de septiembre.",
           "first_seen": "2026-09-04",
-          "is_new": true
+          "is_new": false
         },
         {
           "id": "arts-project-officer",
@@ -749,8 +745,8 @@
       "name": "Embajada de España en México",
       "url": "https://www.exteriores.gob.es/Embajadas/mexico/es/Embajada/Paginas/Ofertas-de-empleo.aspx",
       "method": "agent-browser",
-      "last_checked": "2026-09-03",
-      "failed_today": true,
+      "last_checked": "2026-09-05",
+      "failed_today": false,
       "vacancies": [
         {
           "id": "auxiliar-consejeria-de-trabajo-migraciones-y-seguridad-social-en-mexico-2-plazas",
@@ -807,7 +803,7 @@
       "name": "Museo Franz Mayer",
       "url": "https://franzmayer.org.mx/vacantes",
       "method": "agent-browser",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -855,7 +851,7 @@
       "name": "Museo Tamayo",
       "url": "https://www.museotamayo.org/vacantes",
       "method": "webfetch",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": []
     },
@@ -864,7 +860,7 @@
       "name": "Alianza Francesa de México (.edu.mx)",
       "url": "https://www.alianzafrancesamx.edu.mx/la-alianza/trabaja-con-nosotros",
       "method": "agent-browser",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -968,7 +964,7 @@
       "name": "Alianza Francesa (.org.mx)",
       "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
       "method": "webfetch",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -1024,7 +1020,7 @@
       "name": "IFAL",
       "url": "https://ifal.mx/ofertas",
       "method": "agent-browser",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
@@ -1158,7 +1154,7 @@
       "name": "Embajada de Irlanda en México",
       "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
       "method": "agent-browser",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": []
     },
@@ -1167,7 +1163,7 @@
       "name": "Fundación Jumex",
       "url": "https://www.fundacionjumex.org/es/fundacion/oportunidades-de-empleo-y-convocatorias",
       "method": "webfetch",
-      "last_checked": "2026-09-04",
+      "last_checked": "2026-09-05",
       "failed_today": false,
       "vacancies": [
         {
