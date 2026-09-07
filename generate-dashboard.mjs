@@ -20,7 +20,7 @@ const definitions = [
 ];
 
 const warnings = [
-  { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro y prohibió el reintento; por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
+  { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro (error no reintentable); por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
 ];
 
