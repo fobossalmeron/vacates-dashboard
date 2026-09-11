@@ -22,9 +22,11 @@ const definitions = [
 const warnings = [
   { site: "fco", message: "No se pudo verificar hoy. Método intentado: WebFetch. Error final: la herramienta rechazó el URL como no seguro (error no reintentable); por política no se usaron métodos alternativos. Se conservó el snapshot del 2026-08-10." },
   { site: "fco", message: "El URL actual NO está filtrando solo por México. Devuelve vacantes en LatAm general; se clasificaron como fuera de scope las de otras ciudades." },
+  { site: "franz_mayer", message: "No se pudo verificar hoy. Métodos intentados: agent-browser (sin contenido utilizable) y Playwright (navegación bloqueada por la política de seguridad del navegador). Se conservó el snapshot del 2026-09-09." },
+  { site: "ireland", message: "No se pudo completar la verificación hoy. Métodos intentados: agent-browser (403) y Playwright (el listado mostró ‘Agri-food Market Access Officer’, pero el detalle falló dos veces con ERR_NETWORK_CHANGED). Se conservó el snapshot del 2026-09-09 para reintentar el diff en la próxima corrida." },
 ];
 
-const failed = new Set(["fco"]);
+const failed = new Set(["fco", "franz_mayer", "ireland"]);
 const sites = definitions.map(([key, name]) => {
   const state = JSON.parse(fs.readFileSync(path.join(root, "state", `${key}.json`), "utf8"));
   return {

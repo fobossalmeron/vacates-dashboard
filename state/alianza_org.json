@@ -1,7 +1,7 @@
 {
   "site": "alianza_org",
   "url": "https://alianzafrancesa.org.mx/quienes-somos/trabaja-con-nosotros/",
-  "last_checked": "2026-09-09",
+  "last_checked": "2026-09-10",
   "fetch_method": "webfetch",
   "vacancies": [
     {
@@ -15,9 +15,9 @@
         "clemence.mayoral@alianzafr.mx"
       ],
       "deadline": "2026-09-09",
-      "status": "active",
+      "status": "closed",
       "relevance": "out_of_scope",
-      "notes": "Convocatoria republicada para iniciar el 2026-09-01. Contrato de derecho público francés por 2 años, renovable hasta 4 años; salario bruto mínimo de €3,038.75 mensuales para perfil con Master 2. Candidaturas a heloise.thieulin@ifal.mx y clemence.mayoral@alianzafr.mx hasta el 2026-09-09.",
+      "notes": "Convocatoria republicada para iniciar el 2026-09-01. Contrato de derecho público francés por 2 años, renovable hasta 4 años; salario bruto mínimo de €3,038.75 mensuales para perfil con Master 2. Candidaturas a heloise.thieulin@ifal.mx y clemence.mayoral@alianzafr.mx hasta el 2026-09-09. Deadline pasado (2026-09-09); marcada cerrada el 2026-09-10 aunque sigue visible en el listado.",
       "first_seen": "2026-05-01"
     },
     {
