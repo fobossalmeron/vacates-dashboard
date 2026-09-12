@@ -1,7 +1,22 @@
 {
   "site": "ireland",
   "url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/",
-  "last_checked": "2026-09-09",
-  "fetch_method": "playwright",
-  "vacancies": []
+  "last_checked": "2026-09-11",
+  "fetch_method": "agent-browser",
+  "vacancies": [
+    {
+      "id": "agri-food-market-access-officer",
+      "title": "Agri-food Market Access Officer",
+      "apply_url": "https://www.ireland.ie/en/mexico/mexicocity/about/job-opportunities/agri-food-market-access-officer-2026/",
+      "location": "CDMX · Embajada de Irlanda",
+      "deadline": "2026-09-25",
+      "status": "active",
+      "relevance": "in_scope",
+      "contact_emails": [
+        "MexicoEmbassy@dfa.ie"
+      ],
+      "notes": "Apoya la promoción del sector agroalimentario irlandés y el acceso a mercados en América Latina y el Caribe. Puesto bilingüe; candidatura con formulario antes de las 17:00, hora de CDMX, del 2026-09-25.",
+      "first_seen": "2026-09-11"
+    }
+  ]
 }
